@@ -1,34 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lanxiang Vermeulen Portfolio
 
-## Getting Started
+This is the source code for the [Lanxiang Vermeulen's Portfolio](https://lxframes.nl/), a [Next.js](https://nextjs.org/) project designed by Lanxiang Vermeulen and developed by [Sjors van Holst](https://sjorsvanholst.nl/)! The project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-First, run the development server:
+The portfolio showcases the work and achievements of Lanxiang Vermeulen.
+
+## Setup and Development
+
+To get started, first install the dependencies with NPM:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your browser to see the result. You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The project uses [Decap CMS](https://decapcms.org/) to manage content, and [next/font](https://nextjs.org/docs/app/api-reference/components/font) to automatically optimize and load Google Fonts.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Code Quality
 
-## Learn More
+This project is set up with [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/). To run the linter, use:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To format your code, use:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+npm run format
+```
 
-## Deploy on Vercel
+All pull requests will be automatically checked by GitHub Actions for linting and formatting issues.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The portfolio is hosted on [Vercel](https://vercel.com/). Every push to the main branch will trigger an automatic deployment.
