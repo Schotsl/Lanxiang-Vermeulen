@@ -1,4 +1,4 @@
-# Lanxiang Vermeulen Portfolio
+# Lanxiang Vermeulen
 
 This is the source code for the [Lanxiang Vermeulen's Portfolio](https://lxframes.nl/), a [Next.js](https://nextjs.org/) project designed by Lanxiang Vermeulen and developed by [Sjors van Holst](https://sjorsvanholst.nl/)! The project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
