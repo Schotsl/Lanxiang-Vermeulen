@@ -4,9 +4,9 @@ This is the source code for the [Lanxiang Vermeulen's Portfolio](https://lxframe
 
 The portfolio showcases the work and achievements of Lanxiang Vermeulen.
 
-## Setup and Development
+## Setup and development
 
-This project uses PNPM for package management. To get started, first install PNPM globally (if you haven't already):
+This project uses PNPM for package management. To get started, first install PNPM globally:
 
 ```bash
 npm install -g pnpm
@@ -26,7 +26,7 @@ pnpm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
 
-The project uses [Decap CMS](https://decapcms.org/) to manage content, and [next/font](https://nextjs.org/docs/app/api-reference/components/font) to automatically optimize and load Google Fonts.
+The project uses [Decap CMS](https://decapcms.org/) to manage content, and [next/font](https://nextjs.org/docs/app/api-reference/components/font) to automatically optimize and load Google Fonts, and integrates TypeScript, ESLint and Prettier for code quality and consistency.
 
 ## Code Quality
 
@@ -42,7 +42,7 @@ To format your code, use:
 pnpm run format
 ```
 
-All pull requests will be automatically checked by GitHub Actions for linting and formatting issues.
+Every push to the main branch will be automatically checked by GitHub Actions for linting and formatting issues.
 
 ## Deployment
 
