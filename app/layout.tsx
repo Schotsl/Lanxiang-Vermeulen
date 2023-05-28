@@ -3,6 +3,7 @@ import "@/styles/variables.scss";
 import "@/styles/mixins.scss";
 
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import Socials from "@/components/Socials";
 
 export const metadata = {
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Header />
         <Socials />
         {children}
         <Footer />

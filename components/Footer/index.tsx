@@ -7,7 +7,7 @@ import FooterAbout from "@/components/Footer/About";
 
 export default function Footer() {
   const aboutContent = {
-    text: "Ontdek de kracht van vormgeving en fotografie met LXFrames. Neem vandaag nog contact met ons op om uw project te bespreken en samen iets unieks te creëren.",
+    text: "Ontdek de kracht van vormgeving en fotografie met LxFrames. Neem vandaag nog contact met ons op om uw project te bespreken en samen iets unieks te creëren.",
     title: "Lxframes",
     rights: (
       <>

@@ -13,7 +13,7 @@ export default function Home() {
       <header className={style.home__header}>
         <Image
           src="/images/logo.png"
-          alt="Lxframes Logo"
+          alt="Lxframes logo"
           width={408}
           height={162}
           className={style.home__logo}
