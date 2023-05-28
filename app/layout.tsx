@@ -1,6 +1,6 @@
-import "./globals.scss";
+import "@/styles/globals.scss";
 import "@/styles/variables.scss";
-import "@/styles/breakpoints.scss";
+import "@/styles/mixins.scss";
 
 export const metadata = {
   title: "Create Next App",
