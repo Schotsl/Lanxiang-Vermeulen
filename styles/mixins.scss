@@ -28,6 +28,12 @@
   }
 }
 
+@mixin xxl-breakpoint {
+  @media only screen and (min-width: $breakpoint-xxl) {
+    @content;
+  }
+}
+
 @mixin visually-hidden {
   clip: rect(0 0 0 0);
   width: 1px;
