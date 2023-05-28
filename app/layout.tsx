@@ -3,6 +3,7 @@ import "@/styles/variables.scss";
 import "@/styles/mixins.scss";
 
 import Footer from "@/components/Footer";
+import Socials from "@/components/Socials";
 
 export const metadata = {
   title: "Create Next App",
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Socials />
         {children}
         <Footer />
       </body>
