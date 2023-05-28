@@ -4,8 +4,8 @@ export const metadata = {
 
 export default function Design() {
   return (
-    <body>
+    <div>
       <h1>Design</h1>
-    </body>
+    </div>
   );
 }

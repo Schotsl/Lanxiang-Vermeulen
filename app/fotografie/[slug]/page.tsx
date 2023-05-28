@@ -8,8 +8,8 @@ type DesignProps = {
 
 export default function FotografieSlug({ params: { slug } }: DesignProps) {
   return (
-    <body>
+    <div>
       <h1>Fotografie - {slug}</h1>
-    </body>
+    </div>
   );
 }

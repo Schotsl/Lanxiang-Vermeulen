@@ -4,8 +4,8 @@ export const metadata = {
 
 export default function OverMij() {
   return (
-    <body>
+    <div>
       <h1>Over mij</h1>
-    </body>
+    </div>
   );
 }

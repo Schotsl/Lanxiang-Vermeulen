@@ -8,8 +8,8 @@ type DesignProps = {
 
 export default function DesignDetail({ params: { slug } }: DesignProps) {
   return (
-    <body>
+    <div>
       <h1>Design - {slug}</h1>
-    </body>
+    </div>
   );
 }

@@ -4,8 +4,8 @@ export const metadata = {
 
 export default function Fotografie() {
   return (
-    <body>
+    <div>
       <h1>Fotografie</h1>
-    </body>
+    </div>
   );
 }

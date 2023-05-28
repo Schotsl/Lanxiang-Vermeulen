@@ -4,8 +4,8 @@ export const metadata = {
 
 export default function Contact() {
   return (
-    <body>
+    <div>
       <h1>Contact</h1>
-    </body>
+    </div>
   );
 }
