@@ -1,0 +1,49 @@
+@mixin xs-breakpoint {
+  @media only screen and (max-width: $breakpoint-xs) {
+    @content;
+  }
+}
+
+@mixin sm-breakpoint {
+  @media only screen and (min-width: $breakpoint-sm) {
+    @content;
+  }
+}
+
+@mixin md-breakpoint {
+  @media only screen and (min-width: $breakpoint-md) {
+    @content;
+  }
+}
+
+@mixin lg-breakpoint {
+  @media only screen and (min-width: $breakpoint-lg) {
+    @content;
+  }
+}
+
+@mixin xl-breakpoint {
+  @media only screen and (min-width: $breakpoint-xl) {
+    @content;
+  }
+}
+
+@mixin visually-hidden {
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+
+  &:focus,
+  &:active {
+    clip: auto;
+    margin: 0;
+    height: auto;
+    position: static;
+    overflow: visible;
+  }
+}
