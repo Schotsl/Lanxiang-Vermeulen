@@ -1,95 +1,60 @@
+import Link from "next/link";
 import Image from "next/image";
-import styles from "./page.module.css";
+import style from "./page.module.scss";
+
+export const metadata = {
+  title: "Lxframes",
+  description: "Lxframes",
+};
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
+    <body className={style.home}>
+      <header className={style.home__header}>
         <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+          src="/images/logo.png"
+          alt="Lxframes Logo"
+          width={408}
+          height={162}
+          className={style.home__logo}
         />
-      </div>
+        <h1 className={style.home__title}>Lxframes</h1>
+      </header>
+      <main>
+        <section className={style.home__section}>
+          <Link className={style.home__link} href="/fotografie">
+            <figure className={style.home__figure}>
+              <Image
+                src="/images/index/fotografie (to-be-replaced).png"
+                alt="TO BE ADDED"
+                width={1015}
+                height={784}
+                className={style.home__image}
+              />
+              <figcaption className={style.home__caption}>
+                Mijn werk
+                <span className={style.home__span}>fotografie</span>
+              </figcaption>
+            </figure>
+          </Link>
+          <Link className={style.home__link} href="/design">
+            <figure className={style.home__figure}>
+              <Image
+                src="/images/index/design (to-be-replaced).png"
+                alt="TO BE ADDED"
+                width={1015}
+                height={784}
+                className={style.home__image}
+              />
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+              <figcaption className={style.home__caption}>
+                Mijn werk
+                <span className={style.home__span}>design</span>
+              </figcaption>
+            </figure>
+          </Link>
+        </section>
+      </main>
+    </body>
   );
 }

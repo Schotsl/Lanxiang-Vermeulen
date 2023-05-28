@@ -1,0 +1,73 @@
+@mixin xs-breakpoint {
+  @media only screen and (max-width: $breakpointXS) {
+    @content;
+  }
+}
+
+@mixin sm-breakpoint {
+  @media only screen and (min-width: $breakpointSM) {
+    @content;
+  }
+}
+
+@mixin md-breakpoint {
+  @media only screen and (min-width: $breakpointMD) {
+    @content;
+  }
+}
+
+@mixin lg-breakpoint {
+  @media only screen and (min-width: $breakpointLG) {
+    @content;
+  }
+}
+
+@mixin xl-breakpoint {
+  @media only screen and (min-width: $breakpointXL) {
+    @content;
+  }
+}
+
+@mixin responsive-padding {
+  padding: 32px var(--gutter-mobile);
+
+  @include md-breakpoint {
+    padding: 32px var(--gutter-tablet);
+  }
+
+  @include lg-breakpoint {
+    padding: 32px var(--gutter-desktop);
+  }
+}
+
+@mixin responsive-padding-without-top {
+  padding: 0px var(--gutter-mobile) 32px;
+
+  @include md-breakpoint {
+    padding: 0px var(--gutter-tablet) 32px;
+  }
+
+  @include lg-breakpoint {
+    padding: 0px var(--gutter-desktop) 32px;
+  }
+}
+
+@mixin visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+
+  &:focus,
+  &:active {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+  }
+}
