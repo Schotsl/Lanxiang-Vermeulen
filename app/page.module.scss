@@ -49,9 +49,10 @@
     }
 
     .home__link {
+      @include clickable-image;
+
       flex: 1;
       display: block;
-      transition: transform 0.2s ease-in-out;
 
       .home__figure {
         position: relative;
@@ -98,10 +99,6 @@
             }
           }
         }
-      }
-
-      &:hover {
-        transform: scale(1.05);
       }
     }
   }

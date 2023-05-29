@@ -2,6 +2,7 @@
 
 "use client";
 
+import Link from "next/link";
 import Image from "next/image";
 import styles from "./ProjectItem.module.scss";
 
@@ -18,27 +19,29 @@ export default function ProjectsItem({
 
   return (
     <article className={itemClasses}>
-      <Image
-        src={image.src}
-        alt={image.alt}
-        width={image.width}
-        height={image.height}
-        className={styles.project__image}
-      />
+      <Link className={styles.project__link} href="/design/test">
+        <Image
+          src={image.src}
+          alt={image.alt}
+          width={image.width}
+          height={image.height}
+          className={styles.project__image}
+        />
 
-      <div className={styles.project__overlay}>
-        <h2 className={styles.project__title}>
-          {subtitle}
-          <span className={styles.project__subtitle}>{title}</span>
-        </h2>
+        <div className={styles.project__overlay}>
+          <h2 className={styles.project__title}>
+            {subtitle}
+            <span className={styles.project__subtitle}>{title}</span>
+          </h2>
 
-        <p className={styles.project__client}>
-          Opdrachtgever |{" "}
-          <span className={styles.project__value}>{client}</span>
-        </p>
+          <p className={styles.project__client}>
+            Opdrachtgever |{" "}
+            <span className={styles.project__value}>{client}</span>
+          </p>
 
-        <div className={styles.project__divider}></div>
-      </div>
+          <div className={styles.project__divider}></div>
+        </div>
+      </Link>
     </article>
   );
 }
