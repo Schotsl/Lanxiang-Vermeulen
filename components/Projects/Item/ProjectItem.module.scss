@@ -1,5 +1,10 @@
+@import "@/styles/variables.scss";
+@import "@/styles/mixins.scss";
+
 .project {
   height: 40vh;
+
+  grid-column: span 12;
 
   &__image {
     width: 100%;
@@ -11,19 +16,21 @@
     display: none;
   }
 
-  &--full {
-    width: calc(100% - 2rem);
-  }
+  @include md-breakpoint {
+    &--full {
+      grid-column: span 12;
+    }
 
-  &--half {
-    width: calc(50% - 1rem);
-  }
+    &--half {
+      grid-column: span 6;
+    }
 
-  &--one-third {
-    width: calc(33.333% - 2rem);
-  }
+    &--one-third {
+      grid-column: span 4;
+    }
 
-  &--two-thirds {
-    width: calc(66.666% - 1rem);
+    &--two-thirds {
+      grid-column: span 8;
+    }
   }
 }
