@@ -67,6 +67,8 @@ export default function Footer() {
 
       <FooterList {...navigationContent} />
       <FooterList {...socialsContent} />
+
+      {/* TODO: Add <a href="http://www.freepik.com">Designed by Vectorium / Freepik</a> */}
     </footer>
   );
 }

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import styles from "./ProjectsItem.module.scss";
+import styles from "./ProjectItem.module.scss";
 
 import { Project } from "@/types";
 
@@ -12,9 +12,9 @@ type ProjectItemProps = {
 export default function ProjectItem({
   project: {
     title,
-    content,
-    subtitle,
     image: { src, alt, width, height },
+    client,
+    subtitle,
   },
 }: ProjectItemProps) {
   return (
@@ -32,7 +32,9 @@ export default function ProjectItem({
         <span className={styles.project__subtitle}>{title}</span>
       </h2>
 
-      <p className={styles.project__content}>{content}</p>
+      <p className={styles.project__client}>
+        Opdrachtgever | <span className={styles.project__value}>{client}</span>
+      </p>
 
       <div className={styles.project__divider}></div>
     </article>

@@ -13,6 +13,6 @@ export type Image = {
 export type Project = {
   image: Image;
   title: string;
+  client: string;
   subtitle: string;
-  content: string;
 };
