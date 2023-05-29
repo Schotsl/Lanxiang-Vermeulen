@@ -4,19 +4,19 @@ import styles from "./Project.module.scss";
 
 import { Project } from "@/types";
 
-import ProjectItem from "@/components/Project/Item";
+import ProjectsItem from "@/components/Projects/Item";
 
-type ProjectProps = {
+type ProjectsProps = {
   projects: Project[];
 };
 
-export default function Project({ projects }: ProjectProps) {
+export default function Projects({ projects }: ProjectsProps) {
   return (
     <section className={styles.projects}>
       <h1 className={styles.projects__title}>Projects</h1>
 
       {projects.map((project, index) => (
-        <ProjectItem key={index} project={project} />
+        <ProjectsItem key={index} project={project} />
       ))}
     </section>
   );

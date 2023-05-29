@@ -5,13 +5,13 @@ import styles from "./ProjectItem.module.scss";
 
 import { Project } from "@/types";
 
-type ProjectItemProps = {
+type ProjectsItemProps = {
   project: Project;
 };
 
-export default function ProjectItem({
+export default function ProjectsItem({
   project: { width, title, image, client, subtitle },
-}: ProjectItemProps) {
+}: ProjectsItemProps) {
   const itemClasses = `${styles.project} ${styles[`project--${width}`]}`;
 
   return (

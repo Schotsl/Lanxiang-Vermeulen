@@ -2,7 +2,7 @@
 
 import { Project } from "@/types";
 
-import Projects from "@/components/Project";
+import Projects from "@/components/Projects";
 
 export const metadata = {
   title: "Lxframes - Design",
