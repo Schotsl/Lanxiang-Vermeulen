@@ -1,0 +1,16 @@
+@import "@/styles/variables.scss";
+@import "@/styles/mixins.scss";
+
+.projects {
+  gap: 2rem;
+  padding: 0;
+  display: flex;
+
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+
+  &__title {
+    @include visually-hidden;
+  }
+}

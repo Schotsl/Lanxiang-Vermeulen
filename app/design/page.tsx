@@ -1,5 +1,7 @@
 // TODO: Rename project to projects
 
+import { Project } from "@/types";
+
 import Projects from "@/components/Project";
 
 export const metadata = {
@@ -8,6 +10,7 @@ export const metadata = {
 
 const projects = [
   {
+    width: "one-third",
     title: "Amsterdam Designmuseum",
     client: "Mediacollege Amsterdam",
     subtitle: "Huisstijl voor",
@@ -19,6 +22,7 @@ const projects = [
     },
   },
   {
+    width: "two-thirds",
     title: "Amsterdam Designmuseum",
     client: "Mediacollege Amsterdam",
     subtitle: "Huisstijl voor",
@@ -30,6 +34,7 @@ const projects = [
     },
   },
   {
+    width: "one-third",
     title: "Amsterdam Designmuseum",
     client: "Mediacollege Amsterdam",
     subtitle: "Huisstijl voor",
@@ -41,6 +46,7 @@ const projects = [
     },
   },
   {
+    width: "one-third",
     title: "Amsterdam Designmuseum",
     client: "Mediacollege Amsterdam",
     subtitle: "Huisstijl voor",
@@ -52,6 +58,7 @@ const projects = [
     },
   },
   {
+    width: "one-third",
     title: "Amsterdam Designmuseum",
     client: "Mediacollege Amsterdam",
     subtitle: "Huisstijl voor",
@@ -63,6 +70,7 @@ const projects = [
     },
   },
   {
+    width: "one-third",
     title: "Amsterdam Designmuseum",
     client: "Mediacollege Amsterdam",
     subtitle: "Huisstijl voor",
@@ -74,6 +82,7 @@ const projects = [
     },
   },
   {
+    width: "two-thirds",
     title: "Amsterdam Designmuseum",
     client: "Mediacollege Amsterdam",
     subtitle: "Huisstijl voor",
@@ -84,7 +93,7 @@ const projects = [
       height: 1080,
     },
   },
-];
+] as Project[];
 
 export default function Design() {
   return <Projects projects={projects} />;
