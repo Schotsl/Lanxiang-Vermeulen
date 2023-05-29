@@ -1,12 +1,10 @@
-// React for Projects
-
 "use client";
 
 import styles from "./Project.module.scss";
 
-import { Project } from "@/types";
-
 import ProjectsItem from "@/components/Projects/Item";
+
+import { Project } from "@/types";
 
 type ProjectsProps = {
   projects: Project[];

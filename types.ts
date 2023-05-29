@@ -1,4 +1,4 @@
-export type Width = "one-third" | "one-half" | "two-thirds" | "full";
+export type Width = "one-third" | "two-third";
 
 export type Link = {
   href: string;

@@ -22,7 +22,7 @@ const projects = [
     },
   },
   {
-    width: "two-thirds",
+    width: "two-third",
     title: "Amsterdam Designmuseum",
     client: "Mediacollege Amsterdam",
     subtitle: "Huisstijl voor",
@@ -82,7 +82,7 @@ const projects = [
     },
   },
   {
-    width: "two-thirds",
+    width: "two-third",
     title: "Amsterdam Designmuseum",
     client: "Mediacollege Amsterdam",
     subtitle: "Huisstijl voor",
