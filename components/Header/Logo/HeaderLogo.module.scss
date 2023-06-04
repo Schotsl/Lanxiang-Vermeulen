@@ -1,0 +1,10 @@
+.logo {
+  &__link {
+    display: block;
+
+    .logo__image {
+      width: auto;
+      height: 5rem;
+    }
+  }
+}

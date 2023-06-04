@@ -3,6 +3,7 @@
 import { Project } from "@/types";
 
 import Projects from "@/components/Projects";
+import Header from "@/components/Header";
 
 export const metadata = {
   title: "Lxframes - Design",
@@ -96,5 +97,10 @@ const projects = [
 ] as Project[];
 
 export default function Design() {
-  return <Projects projects={projects} />;
+  return (
+    <body>
+      <Header />
+      <Projects projects={projects} />;
+    </body>
+  );
 }
