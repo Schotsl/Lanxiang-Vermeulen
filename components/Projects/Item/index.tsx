@@ -15,17 +15,19 @@ export default function ProjectsItem({
   project: { width, title, image, client, subtitle },
 }: ProjectsItemProps) {
   const [height, setHeight] = useState(0);
-  const [viewport, setViewport] = useState(window.innerWidth);
+  const [viewport, setViewport] = useState(0);
 
-  const handleResize = () => {
-    setViewport(window.innerWidth);
-  };
+  const viewportResize = () => setViewport(window.innerWidth);
 
   useEffect(() => {
-    window.addEventListener("resize", handleResize);
+    if (typeof window == "undefined") {
+      return;
+    }
+
+    window.addEventListener("resize", viewportResize);
 
     return () => {
-      window.removeEventListener("resize", handleResize);
+      window.removeEventListener("resize", viewportResize);
     };
   }, []);
 
