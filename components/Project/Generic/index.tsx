@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./ProjectAssignment.module.scss";
+import styles from "./ProjectGeneric.module.scss";
 
 import { ReactNode } from "react";
 import { ImageType, WidthType } from "@/types";

@@ -1,6 +1,7 @@
-import ProjectHeader from "@/components/Project/Header";
-import ProjectGeneric from "@/components/Project/Generic";
-import ProjectAssignment from "@/components/Project/Assignment";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Socials from "@/components/Socials";
+import Project from "@/components/Project";
 
 export const metadata = {
   title: "Lxframes - Design - [slug]",
@@ -14,7 +15,7 @@ export default function DesignDetail({ params: { slug } }: DesignProps) {
   return (
     <body>
       <Header />
-      <Projects projects={projects} />
+      <Project />
       <Socials />
       <Footer />
     </body>
