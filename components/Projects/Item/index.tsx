@@ -15,20 +15,29 @@ export default function ProjectsItem({
   project: { width, title, image, client, subtitle },
 }: ProjectsItemProps) {
   const [height, setHeight] = useState(0);
+  const [viewport, setViewport] = useState(window.innerWidth);
 
-  const itemRef = useRef<HTMLDivElement>(null);
-  const itemStyle = { height: `${height}px` };
-  const itemClasses = `${styles.project} ${styles[`project--${width}`]}`;
+  const handleResize = () => {
+    setViewport(window.innerWidth);
+  };
 
   useEffect(() => {
-    if (itemRef.current) {
-      const innerWidth = window.innerWidth
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
-      if (innerWidth == width) {
-        
-      }
-      console.log(window.innerWidth);
+  useEffect(() => {
+    if (!itemRef.current) {
+      return;
+    }
 
+    if (viewport < 768) {
+      // On mobile devices the images should be square
+      setHeight(itemRef.current.clientWidth);
+    } else {
+      // On desktop layout we'll respect the aspect ratio
       switch (width) {
         case "one-third":
           setHeight(itemRef.current.clientWidth * 1.5);
@@ -38,7 +47,11 @@ export default function ProjectsItem({
           break;
       }
     }
-  }, [width]);
+  }, [width, viewport]);
+
+  const itemRef = useRef<HTMLDivElement>(null);
+  const itemStyle = { height: `${height}px` };
+  const itemClasses = `${styles.project} ${styles[`project--${width}`]}`;
 
   return (
     <article className={itemClasses} style={itemStyle} ref={itemRef}>
