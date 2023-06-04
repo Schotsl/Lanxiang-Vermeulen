@@ -19,22 +19,22 @@ export default function HeaderLinks() {
   return (
     <ul className={styles.links}>
       <li className={styles.links__item}>
-        <a className={linkClasses("/design")} href="design">
+        <a className={linkClasses("/design")} href="/design">
           Design
         </a>
       </li>
       <li className={styles.links__item}>
-        <a className={linkClasses("/fotografie")} href="fotografie">
+        <a className={linkClasses("/fotografie")} href="/fotografie">
           Fotografie
         </a>
       </li>
       <li className={styles.links__item}>
-        <a className={linkClasses("/overmij")} href="overmij">
+        <a className={linkClasses("/over-mij")} href="/over-mij">
           Over mij
         </a>
       </li>
       <li className={styles.links__item}>
-        <a className={linkClasses("/contact")} href="contact">
+        <a className={linkClasses("/contact")} href="/contact">
           Contact
         </a>
       </li>
