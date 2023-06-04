@@ -3,6 +3,7 @@
 import { Project } from "@/types";
 
 import Projects from "@/components/Projects";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 export const metadata = {
@@ -100,7 +101,8 @@ export default function Design() {
   return (
     <body>
       <Header />
-      <Projects projects={projects} />;
+      <Projects projects={projects} />
+      <Footer />
     </body>
   );
 }

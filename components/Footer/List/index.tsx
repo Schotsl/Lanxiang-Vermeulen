@@ -11,12 +11,12 @@ type FooterListProps = {
 
 export default function FooterList({ title, links }: FooterListProps) {
   return (
-    <div className={styles.footer__column}>
-      <h3 className={styles.footer__title}>{title}</h3>
+    <div className={styles.list}>
+      <h3 className={styles.list__title}>{title}</h3>
 
-      <ul className={styles.footer__list}>
+      <ul className={styles.list__list}>
         {links.map((link, index) => (
-          <li key={index}>
+          <li className={styles.list__item} key={index}>
             <a href={link.href}>{link.label}</a>
           </li>
         ))}

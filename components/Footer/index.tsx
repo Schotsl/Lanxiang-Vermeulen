@@ -11,7 +11,7 @@ export default function Footer() {
     title: "Lxframes",
     rights: (
       <>
-        ©2023 ontwikkeld door{" "}
+        &copy; 2023 ontwikkeld door{" "}
         <a href="https://sjorsvanholst.nl">Sjors van Holst</a>
       </>
     ),

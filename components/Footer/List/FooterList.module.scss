@@ -1,0 +1,20 @@
+.list {
+  &__title {
+    margin: 0 0 0.5rem;
+
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  &__list {
+    gap: 0.5rem;
+
+    .list__item {
+      font-weight: 300;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

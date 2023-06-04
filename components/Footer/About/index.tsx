@@ -12,12 +12,12 @@ type FooterAboutProps = {
 
 export default function FooterAbout({ text, title, rights }: FooterAboutProps) {
   return (
-    <div className={styles.footer__about}>
-      <h3 className={styles.footer__title}>{title}</h3>
+    <div className={styles.about}>
+      <h3 className={styles.about__title}>{title}</h3>
 
-      <p className={styles.footer__text}>{text}</p>
+      <p className={styles.about__text}>{text}</p>
 
-      <p className={styles.footer__rights}>{rights}</p>
+      <p className={styles.about__rights}>{rights}</p>
     </div>
   );
 }
