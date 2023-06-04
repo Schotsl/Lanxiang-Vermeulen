@@ -8,7 +8,7 @@ export default function HeaderLinks() {
   const pathname = usePathname();
 
   const linkClasses = (path: string) => {
-    const itemActive = pathname === path;
+    const itemActive = pathname.startsWith(path);
     const itemClasses = itemActive
       ? `${styles.links__link} ${styles["links__link--active"]}`
       : `${styles.links__link}`;
