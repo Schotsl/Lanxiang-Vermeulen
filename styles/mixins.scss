@@ -57,6 +57,8 @@
 @mixin clickable-image {
   transition: transform 0.2s ease-in-out;
 
+  // TODO: Scale by a fixed amount
+
   &:hover {
     transform: scale(1.05);
   }
