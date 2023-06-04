@@ -1,5 +1,4 @@
-// TODO: This is a duplicate of ProjectHeader
-.over_mij {
+.header {
   display: flex;
   align-items: stretch;
 
@@ -13,7 +12,7 @@
     display: flex;
     padding: 5rem;
     position: relative;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
 
     .header__button {
@@ -29,20 +28,11 @@
       align-items: center;
     }
 
-    .header__inner {
-      top: 50%;
-      width: 60%;
-      display: flex;
-      position: absolute;
-      transform: translateY(-50%);
-      flex-direction: column;
-
-      .header__divider {
-        width: 7.5rem;
-        height: 0.5rem;
-        margin: 3rem 0 0;
-        background: #f1d9d8;
-      }
+    .header__divider {
+      width: 7.5rem;
+      height: 0.5rem;
+      margin: 3rem 0 0;
+      background: #f1d9d8;
     }
   }
 }

@@ -1,0 +1,15 @@
+.images {
+  gap: 2.5rem;
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+
+  .images__item {
+    width: 100%;
+
+    .images__image {
+      width: 100%;
+      aspect-ratio: 960 / 811;
+    }
+  }
+}
