@@ -7,28 +7,49 @@ import { FaInstagram, FaLinkedin, FaTiktok, FaFacebook } from "react-icons/fa";
 export default function Socials() {
   return (
     <section className={styles.socials}>
-      <h3 className={styles.title}>Socials | @lanxiangvermeulen</h3>
+      <h3 className={styles.socials__title}>
+        <span className={styles.socials__subtitle}>Socials</span> |
+        @lanxiangvermeulen
+      </h3>
 
-      <ul className={styles.list}>
-        <li className={styles.item}>
+      <ul className={styles.socials__list}>
+        <li className={styles.socials__item}>
           <a
-            className={styles.link}
+            className={styles.socials__link}
             href="https://www.instagram.com/lanxiangvermeulen/"
           >
-            <FaInstagram className={styles.icon} />
-            <span className={styles.label}>Instagram</span>
+            <FaInstagram className={styles.socials__icon} />
+            <span className={styles.socials__label}>Instagram</span>
           </a>
-          <a className={styles.link}>
-            <FaLinkedin className={styles.icon} />
-            <span className={styles.label}>LinkedIn</span>
+        </li>
+
+        <li className={styles.socials__item}>
+          <a
+            className={styles.socials__link}
+            href="https://www.linkedin.com/in/lanxiang-vermeulen-498471185/"
+          >
+            <FaLinkedin className={styles.socials__icon} />
+            <span className={styles.socials__label}>LinkedIn</span>
           </a>
-          <a className={styles.link}>
-            <FaTiktok className={styles.icon} />
-            <span className={styles.label}>TikTok</span>
+        </li>
+
+        <li className={styles.socials__item}>
+          <a
+            className={styles.socials__link}
+            href="https://www.tiktok.com/@lanxiangvermeulen/"
+          >
+            <FaTiktok className={styles.socials__icon} />
+            <span className={styles.socials__label}>TikTok</span>
           </a>
-          <a className={styles.link}>
-            <FaFacebook className={styles.icon} />
-            <span className={styles.label}>Facebook</span>
+        </li>
+
+        <li className={styles.socials__item}>
+          <a
+            className={styles.socials__link}
+            href="https://www.facebook.com/lanxiang.vermeulen/"
+          >
+            <FaFacebook className={styles.socials__icon} />
+            <span className={styles.socials__label}>Facebook</span>
           </a>
         </li>
       </ul>
