@@ -1,10 +1,12 @@
+import styles from "./Project.module.scss";
+
 import ProjectHeader from "@/components/Project/Header";
 import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
 export default function Project() {
   return (
-    <>
+    <div className={styles.project}>
       <ProjectHeader
         title="Amsterdam Designmuseum"
         content="Ik kreeg de kans om in opdracht van Mediacollege Amsterdam een huisstijl te ontwerpen voor het Amsterdam Designmuseum. Het hele project werd in slechts vier weken afgerond, van 19 oktober tot 20 november 2020."
@@ -29,7 +31,6 @@ export default function Project() {
 
       <ProjectGeneric
         title="De toekomst is baanbrekend"
-        divider={true}
         content="Mijn concept draagt de naam “De toekomst is baanbrekend” en is erg uniek! Met mijn ontwerp wil ik laten zien dat het museum boordevol nieuwe ideeën en inzichten zit. Het is een plek waar je jezelf kunt ontdekken en volop inspiratie kunt opdoen."
         subtitle="Conceptontwikkeling"
         images={[
@@ -46,6 +47,7 @@ export default function Project() {
       <ProjectGeneric
         title="Uitwerking"
         content="Hieronder vind je een deel van mijn grondige onderzoek voor het Amsterdam Designmuseum project. Ik heb me toegewijd aan het verkennen van de doelgroep, concurrentie en het product. Daarnaast heb ik uitgebreid onderzoek gedaan naar bijpassende ontwerpers en disciplines."
+        divider={true}
         images={[
           {
             alt: "Conceptontwikkeling",
@@ -77,6 +79,6 @@ export default function Project() {
           },
         ]}
       />
-    </>
+    </div>
   );
 }

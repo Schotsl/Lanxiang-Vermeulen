@@ -9,9 +9,9 @@ type ProjectAssignmentProps = {
 export default function ProjectAssignment({ content }: ProjectAssignmentProps) {
   return (
     <section className={styles.assignment}>
-      <h2 className={styles.assignment_title}>Opdracht</h2>
+      <h2 className={styles.assignment__title}>Opdracht</h2>
 
-      <p className={styles.assignment_content}>{content}</p>
+      <p className={styles.assignment__content}>{content}</p>
     </section>
   );
 }

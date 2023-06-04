@@ -33,17 +33,23 @@ export default function ProjectGeneric({
 
       {divider && <div className={styles.generic__divider}></div>}
 
+      {/* TODO: Move to a seperate component */}
       <ul className={styles.generic__images}>
-        {images.map((image) => (
-          <li className={styles.generic__image} key={image.src}>
-            <Image
-              src={image.src}
-              alt={image.alt}
-              width={image.width}
-              height={image.height}
-            />
-          </li>
-        ))}
+        {images.map((image) => {
+          const imageWidth = `generic__image--${image.size}`;
+          const imageClasses = `${styles.generic__image} ${styles[imageWidth]}`;
+
+          return (
+            <li className={imageClasses} key={image.src}>
+              <Image
+                src={image.src}
+                alt={image.alt}
+                width={image.width}
+                height={image.height}
+              />
+            </li>
+          );
+        })}
       </ul>
     </section>
   );
