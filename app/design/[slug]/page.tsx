@@ -15,9 +15,11 @@ export default function DesignDetail({ params: { slug } }: DesignProps) {
   return (
     <body>
       <Header />
-      <Project />
-      <Socials />
-      <Footer />
+      <main>
+        <Project />
+        <Socials />
+        <Footer />
+      </main>
     </body>
   );
 }

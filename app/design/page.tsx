@@ -2,10 +2,10 @@
 
 import { Project } from "@/types";
 
-import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Socials from "@/components/Socials";
+import Projects from "@/components/Projects";
 
 export const metadata = {
   title: "Lxframes - Design",
@@ -102,9 +102,11 @@ export default function Design() {
   return (
     <body>
       <Header />
-      <Projects projects={projects} />
-      <Socials />
-      <Footer />
+      <main>
+        <Projects projects={projects} />
+        <Socials />
+        <Footer />
+      </main>
     </body>
   );
 }

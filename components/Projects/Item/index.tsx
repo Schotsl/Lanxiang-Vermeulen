@@ -14,10 +14,11 @@ type ProjectsItemProps = {
 export default function ProjectsItem({
   project: { width, title, image, client, subtitle },
 }: ProjectsItemProps) {
-  const [height, setHeight] = useState(0);
-  const [viewport, setViewport] = useState(0);
-
+  const viewportWidth = typeof window !== "undefined" && window.innerWidth;
   const viewportResize = () => setViewport(window.innerWidth);
+
+  const [height, setHeight] = useState(0);
+  const [viewport, setViewport] = useState(viewportWidth);
 
   useEffect(() => {
     if (typeof window == "undefined") {
