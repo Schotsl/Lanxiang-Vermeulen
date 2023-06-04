@@ -1,0 +1,42 @@
+.assignment {
+  height: 65vh;
+  display: flex;
+  position: relative;
+  background: #fff9f9;
+
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  .assignment_content {
+    width: 30%;
+    text-align: center;
+
+    &::before {
+      content: open-quote;
+    }
+
+    &::after {
+      content: close-quote;
+    }
+
+    b {
+      font-weight: 500;
+    }
+  }
+
+  &::before,
+  &::after {
+    top: 10%;
+    width: 200%;
+    height: 0.25rem;
+    content: "";
+    position: absolute;
+    transform: rotate(-10deg);
+    background: #f1d9d8;
+  }
+
+  &::after {
+    top: 90%;
+  }
+}

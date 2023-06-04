@@ -34,18 +34,7 @@
       display: flex;
       position: absolute;
       transform: translateY(-50%);
-
-      font-size: 1.25rem;
-      font-weight: 300;
       flex-direction: column;
-
-      .header__title {
-        margin: 0 0 1rem;
-
-        font-size: 3rem;
-        font-weight: 600;
-        line-height: 1.1;
-      }
 
       .header__divider {
         width: 7.5rem;
