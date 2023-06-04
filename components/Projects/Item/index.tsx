@@ -23,6 +23,7 @@ export default function ProjectsItem({
 
   useEffect(() => {
     window.addEventListener("resize", handleResize);
+
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -40,10 +41,10 @@ export default function ProjectsItem({
       // On desktop layout we'll respect the aspect ratio
       switch (width) {
         case "one-third":
-          setHeight(itemRef.current.clientWidth * 1.5);
+          setHeight(itemRef.current.clientWidth * 1.125);
           break;
         case "two-third":
-          setHeight((itemRef.current.clientWidth - 32) * 0.75);
+          setHeight((itemRef.current.clientWidth - 32) * 0.5625);
           break;
       }
     }
