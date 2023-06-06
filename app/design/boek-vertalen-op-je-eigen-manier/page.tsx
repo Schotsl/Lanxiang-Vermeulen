@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Socials from "@/components/Socials";
 
+import ProjectRow from "@/components/Project/Row";
 import ProjectHeader from "@/components/Project/Header";
 import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
@@ -43,21 +44,37 @@ export default function Detail() {
           }
         />
 
-        <ProjectGeneric
-          color="#FFF9F9"
-          border="#F1D9D8"
-          title="De toekomst is baanbrekend"
-          content="Mijn concept draagt de naam “De toekomst is baanbrekend” en is erg uniek! Met mijn ontwerp wil ik laten zien dat het museum boordevol nieuwe ideeën en inzichten zit. Het is een plek waar je jezelf kunt ontdekken en volop inspiratie kunt opdoen."
+        <ProjectRow
           subtitle="Conceptontwikkeling"
-          images={[
-            {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/project/projects.png",
-              size: "one-one",
-              width: 1695,
-              height: 1048,
-            },
-          ]}
+          title="De toekomst is baanbrekend"
+          content={
+            <>
+              <p>
+                Mijn concept draagt de naam “De toekomst is baanbrekend” en is
+                erg uniek! Met mijn ontwerp wil ik laten zien dat het museum
+                boordevol nieuwe ideeën en inzichten zit. Het is een plek waar
+                je jezelf kunt ontdekken en volop inspiratie kunt opdoen.
+              </p>
+              <p>
+                Wat mijn huisstijl zo spannend maakt, is het blokkensysteem.
+                Stel je voor: elke keer dat je de blokken op een andere manier
+                stapelt, krijg je een compleet nieuw perspectief. Het is alsof
+                je telkens weer een frisse blik werpt op de wereld om je heen.
+                Het dynamische karakter van mijn ontwerp zal je zeker verrassen
+                en uitdagen om de dingen op een andere manier te bekijken.
+              </p>
+              <p>
+                Ontdek de grenzeloze mogelijkheden en laat je inspireren om de
+                toekomst op een baanbrekende manier tegemoet te komen
+              </p>
+            </>
+          }
+          image={{
+            src: "/images/design/boek-vertalen-op-je-eigen-manier/Poster.png",
+            alt: "Poster",
+            width: 1258,
+            height: 1790,
+          }}
         />
 
         <ProjectGeneric
