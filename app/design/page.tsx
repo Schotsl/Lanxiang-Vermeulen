@@ -13,6 +13,7 @@ export const metadata = {
 
 const projects = [
   {
+    slug: "amsterdam-designmuseum",
     width: "one-third",
     title: "Amsterdam Designmuseum",
     client: "Mediacollege Amsterdam",
@@ -25,6 +26,7 @@ const projects = [
     },
   },
   {
+    slug: "posters-voor-protesters",
     width: "two-third",
     title: "Posters voor protesters",
     client: "Mediacollege Amsterdam",
@@ -37,6 +39,7 @@ const projects = [
     },
   },
   {
+    slug: "stem-tegen-fast-fashion",
     width: "one-third",
     title: "Stem tegen Fast Fashion",
     client: "Mediacollege Amsterdam",
@@ -49,6 +52,7 @@ const projects = [
     },
   },
   {
+    slug: "restaurant-website",
     width: "one-third",
     title: "Restaurant website",
     client: "Mediacollege Amsterdam",
@@ -61,6 +65,7 @@ const projects = [
     },
   },
   {
+    slug: "website-ontwerp",
     width: "one-third",
     title: "Website ontwerp",
     client: "Mediacollege Amsterdam",
@@ -73,18 +78,20 @@ const projects = [
     },
   },
   {
+    slug: "content-ontwerpen-en-schrijven",
     width: "one-third",
     title: "Content ontwerpen en schrijven",
     client: "Mediacollege Amsterdam",
     subtitle: "Huisstijl voor",
     image: {
-      src: "/images/design/concept-ontwerpen-en-schrijven/header.png",
+      src: "/images/design/content-ontwerpen-en-schrijven/header.png",
       alt: "Content ontwerpen en schrijven",
       width: 5000,
       height: 3000,
     },
   },
   {
+    slug: "boek-vertalen-op-je-eigen-manier",
     width: "two-third",
     title: "Boek vertalen op je eigen manier",
     client: "Mediacollege Amsterdam",

@@ -1,8 +1,8 @@
 .assignment {
-  padding: 6rem 0;
+  padding: 8rem 0;
   display: flex;
   position: relative;
-  background: #fff9f9;
+  background: var(--local-color);
 
   align-items: center;
   flex-direction: column;
@@ -33,7 +33,7 @@
     content: "";
     position: absolute;
     transform: rotate(-10deg);
-    background: #f1d9d8;
+    background: var(--local-border);
   }
 
   &::after {

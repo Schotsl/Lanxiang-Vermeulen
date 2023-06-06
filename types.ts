@@ -13,6 +13,7 @@ export type ImageType = {
 };
 
 export type Project = {
+  slug: string;
   width: WidthType;
   image: ImageType;
   title: string;

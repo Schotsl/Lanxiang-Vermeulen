@@ -1,15 +1,17 @@
 import Image from "next/image";
 import styles from "./ProjectGeneric.module.scss";
 
-import { ReactNode } from "react";
 import { ImageType, WidthType } from "@/types";
+import { CSSProperties, ReactNode } from "react";
 
 type ProjectGenericImage = ImageType & {
   size: WidthType;
 };
 
 type ProjectGenericProps = {
+  color: string;
   title: string;
+  border: string;
   images: ProjectGenericImage[];
   content: ReactNode;
   divider?: boolean;
@@ -17,14 +19,21 @@ type ProjectGenericProps = {
 };
 
 export default function ProjectGeneric({
+  color,
   title,
+  border,
   images,
   content,
   divider,
   subtitle,
 }: ProjectGenericProps) {
+  const genericStyle = {
+    "--local-color": color,
+    "--local-border": border,
+  } as CSSProperties;
+
   return (
-    <section className={styles.generic}>
+    <section className={styles.generic} style={genericStyle}>
       {subtitle && <h3 className={styles.generic__subtitle}>{subtitle}</h3>}
 
       <h2 className={styles.generic__title}>{title}</h2>
