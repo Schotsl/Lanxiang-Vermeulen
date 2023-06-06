@@ -14,7 +14,7 @@ type ProjectsItemProps = {
 export default function ProjectsItem({
   project: { width, title, image, client, subtitle },
 }: ProjectsItemProps) {
-  const viewportWidth = typeof window !== "undefined" && window.innerWidth;
+  const viewportWidth = typeof window !== "undefined" ? window.innerWidth : 0;
   const viewportResize = () => setViewport(window.innerWidth);
 
   const [height, setHeight] = useState(0);
