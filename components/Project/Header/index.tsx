@@ -29,7 +29,7 @@ export default function ProjectHeader({
       <div className={styles.header__sidebar}>
         <Button
           icon={<FaArrowLeft />}
-          href="mailto:info@lxframes.nl"
+          href="/design"
           size="small"
           color="white"
           title="Ga terug"
