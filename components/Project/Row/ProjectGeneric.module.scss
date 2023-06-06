@@ -19,6 +19,13 @@
     box-shadow: 0px 3px 6px #00000029;
   }
 
+  &--width {
+    .generic__image {
+      height: auto;
+      width: 650px;
+    }
+  }
+
   &__column {
     gap: 0.75rem;
     display: flex;

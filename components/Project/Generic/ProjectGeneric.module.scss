@@ -75,4 +75,15 @@
       }
     }
   }
+
+  &--width {
+    .generic__images {
+      .generic__image {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
 }

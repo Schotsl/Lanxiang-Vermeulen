@@ -12,6 +12,7 @@ type ProjectGenericProps = {
   color: string;
   title: string;
   border: string;
+  sizing?: "height" | "width";
   images: ProjectGenericImage[];
   content: ReactNode;
   divider?: boolean;
@@ -23,6 +24,7 @@ export default function ProjectGeneric({
   title,
   border,
   images,
+  sizing = "height",
   content,
   divider,
   subtitle,
@@ -32,8 +34,10 @@ export default function ProjectGeneric({
     "--local-border": border,
   } as CSSProperties;
 
+  const genericClasses = `${styles.generic} ${styles[`generic--${sizing}`]}`;
+
   return (
-    <section className={styles.generic} style={genericStyle}>
+    <section className={genericClasses} style={genericStyle}>
       {subtitle && <h3 className={styles.generic__subtitle}>{subtitle}</h3>}
 
       <h2 className={styles.generic__title}>{title}</h2>

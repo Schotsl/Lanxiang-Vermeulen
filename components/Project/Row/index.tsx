@@ -7,6 +7,7 @@ import { ReactNode } from "react";
 type ProjectGenericProps = {
   title: string;
   image: ImageType;
+  sizing?: string;
   content: ReactNode;
   subtitle?: string;
 };
@@ -14,11 +15,14 @@ type ProjectGenericProps = {
 export default function ProjectGeneric({
   title,
   image,
+  sizing = "height",
   content,
   subtitle,
 }: ProjectGenericProps) {
+  const genericStyle = `${styles.generic} ${styles[`generic--${sizing}`]}`;
+
   return (
-    <section className={styles.generic}>
+    <section className={genericStyle}>
       <Image
         src={image.src}
         alt={image.alt}
