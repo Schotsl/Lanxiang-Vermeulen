@@ -29,6 +29,8 @@ export default function AboutHeader() {
         alt="Lanxiang Vermeulen"
         width={1023}
         height={813}
+        blurDataURL="L7C6lPx.0xE%00Rj$+V{01%g}Z$K"
+        placeholder="blur"
         className={styles.header__image}
       />
     </section>

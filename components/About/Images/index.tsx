@@ -9,6 +9,8 @@ export default function AboutImages() {
           alt="Lanxiang"
           width={535}
           height={847}
+          blurDataURL="L6IXNqMu0=vz}yIV0L57ebAf^G?d"
+          placeholder="blur"
           src="/images/over-mij/88819AD1-CBB8-466A-9235-FAC9F242D8FC.png"
           className={styles.images__image}
         />
@@ -18,6 +20,8 @@ export default function AboutImages() {
           alt="Lanxiang"
           width={535}
           height={847}
+          blurDataURL="LRGbht_4JD%201Ipt7jYbVRNVrS1"
+          placeholder="blur"
           src="/images/over-mij/DEC9DE1A-5284-4E0E-9F87-157F9422CBC0.png"
           className={styles.images__image}
         />
@@ -27,6 +31,8 @@ export default function AboutImages() {
           alt="Lanxiang"
           width={535}
           height={847}
+          blurDataURL="LbJar{Mx-:kC~pkDM{WBtRj@Myt7"
+          placeholder="blur"
           src="/images/over-mij/9EE78C4F-4655-408C-9F91-01A5FF12463C.png"
           className={styles.images__image}
         />

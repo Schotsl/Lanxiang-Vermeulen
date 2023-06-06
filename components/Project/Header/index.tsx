@@ -47,6 +47,8 @@ export default function ProjectHeader({
         alt={image.alt}
         width={image.width}
         height={image.height}
+        blurDataURL="LDEB~w[W00br%P#,Riad00WC?^M|"
+        placeholder="blur"
         className={styles.header__image}
       />
     </section>
