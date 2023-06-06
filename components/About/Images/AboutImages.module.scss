@@ -1,7 +1,7 @@
 .images {
   gap: 2.5rem;
-  padding: 5rem;
   display: flex;
+  padding: 0 5rem;
   flex-direction: row;
 
   .images__item {
@@ -9,7 +9,8 @@
 
     .images__image {
       width: 100%;
-      aspect-ratio: 960 / 811;
+      height: calc(100vh - 135.5px);
+      object-fit: cover;
     }
   }
 }

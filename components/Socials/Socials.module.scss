@@ -23,9 +23,15 @@
 
     .socials__item {
       .socials__link {
+        transition: all 0.3s ease-in-out;
+
         .socials__icon {
           width: 3rem;
           height: 3rem;
+        }
+
+        &:hover {
+          color: #dfbbba;
         }
 
         .socials__label {

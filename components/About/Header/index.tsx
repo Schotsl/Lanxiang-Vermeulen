@@ -19,9 +19,13 @@ export default function AboutHeader() {
           creëren en mensen te inspireren met mijn unieke visie en talenten.
         </p>
 
-        <button className={styles.header__button} aria-label="Contact leggen">
+        <a
+          href="mailto:info@lxframes.nl"
+          aria-label="Contact leggen"
+          className={styles.header__button}
+        >
           Contact leggen
-        </button>
+        </a>
       </div>
 
       <Image

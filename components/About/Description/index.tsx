@@ -3,7 +3,10 @@ import styles from "./AboutDescription.module.scss";
 export default function AboutDescription() {
   return (
     <section className={styles.over_mij}>
-      <h2>Mijn motto is Niet lullen maar poetsen</h2>
+      <h2 className={styles.over_mij__title}>
+        Mijn motto is{" "}
+        <p className={styles.over_mij__quote}>Niet lullen maar poetsen</p>
+      </h2>
       <p>
         Mijn passie voor fotografie en vormgeving is grenzeloos. Ik vind het
         fascinerend om de wereld om me heen vast te leggen en visuele verhalen

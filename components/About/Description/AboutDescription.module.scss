@@ -1,8 +1,23 @@
 .over_mij {
+  gap: 1.5rem;
   display: flex;
+  padding: 5rem 30%;
   text-align: center;
   flex-direction: column;
-  gap: 1.5rem;
-  padding: 5rem 30%;
-  flex-direction: column;
+
+  &__title {
+    font-weight: 300;
+
+    .over_mij__quote {
+      font-weight: 500;
+
+      &::before {
+        content: open-quote;
+      }
+
+      &::after {
+        content: close-quote;
+      }
+    }
+  }
 }

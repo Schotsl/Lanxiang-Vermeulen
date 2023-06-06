@@ -1,37 +1,47 @@
 .header {
   display: flex;
+  background: #ffefef;
   align-items: stretch;
 
   &__image,
   &__sidebar {
     width: 50%;
-    aspect-ratio: 960 / 811;
+    height: calc(100vh - 135.5px);
+    object-fit: cover;
   }
 
   &__sidebar {
     display: flex;
     padding: 5rem;
     position: relative;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
 
     .header__button {
       gap: 0.5rem;
-      color: #fff;
-      border: none;
+      color: #3c3c3c;
+      margin: 3rem 0 0;
+      border: 3px solid #3c3c3c;
       display: flex;
       padding: 1rem 1.5rem;
-      background: #3c3c3c;
+      transition: all 0.3s ease-in-out;
+      background: #ffefef;
 
       font-size: 1.25rem;
       font-weight: 600;
       align-items: center;
+
+      &:hover {
+        color: #fff;
+        background: #3c3c3c;
+      }
     }
 
     .header__divider {
       width: 7.5rem;
       height: 0.5rem;
-      margin: 3rem 0 0;
+      margin: 1rem 0 2rem;
       background: #f1d9d8;
     }
   }

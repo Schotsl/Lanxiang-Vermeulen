@@ -5,6 +5,7 @@
   &__image,
   &__sidebar {
     width: 50%;
+    object-fit: cover;
     aspect-ratio: 960 / 811;
   }
 
