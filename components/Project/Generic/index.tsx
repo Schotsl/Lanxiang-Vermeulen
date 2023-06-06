@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "@/components/Button";
 import styles from "./ProjectGeneric.module.scss";
 
 import { ImageType, WidthType } from "@/types";
@@ -15,6 +16,7 @@ type ProjectGenericProps = {
   sizing?: "height" | "width";
   images: ProjectGenericImage[];
   content: ReactNode;
+  buttons?: ReactNode[];
   divider?: boolean;
   subtitle?: string;
 };
@@ -26,6 +28,7 @@ export default function ProjectGeneric({
   images,
   sizing = "height",
   content,
+  buttons = [],
   divider,
   subtitle,
 }: ProjectGenericProps) {
@@ -45,6 +48,8 @@ export default function ProjectGeneric({
       <p className={styles.generic__content}>{content}</p>
 
       {divider && <div className={styles.generic__divider}></div>}
+
+      <div className={styles.generic__buttons}>{buttons}</div>
 
       {/* TODO: Move to a seperate component */}
       <div className={styles.generic__container}>

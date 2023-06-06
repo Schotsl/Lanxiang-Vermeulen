@@ -3,6 +3,7 @@ import styles from "../page.module.scss";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Socials from "@/components/Socials";
+import Button from "@/components/Button";
 
 import ProjectRow from "@/components/Project/Row";
 import ProjectHeader from "@/components/Project/Header";
@@ -92,6 +93,15 @@ export default function Detail() {
               width: 2880,
               height: 1800,
             },
+          ]}
+          buttons={[
+            <Button key="1" color="white" href="/test" title="XD-bestand" />,
+            <Button
+              key="2"
+              color="white"
+              href="/test"
+              title="Clufsafe uitgelegd"
+            />,
           ]}
         />
 

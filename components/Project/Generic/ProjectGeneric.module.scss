@@ -37,6 +37,12 @@
     background: var(--local-border);
   }
 
+  &__buttons {
+    gap: 1rem;
+    margin: 2rem 0 0;
+    display: flex;
+  }
+
   &__container {
     width: 80%;
     margin: 2.5rem 0 0;
