@@ -27,7 +27,7 @@
 
   &__title,
   &__content {
-    width: 30%;
+    width: 35%;
   }
 
   &__divider {
@@ -37,36 +37,40 @@
     background: #5c3926;
   }
 
-  &__images {
-    width: 100%;
-    margin: 2rem 0 0;
+  &__container {
+    width: 80%;
+    margin: 2.5rem 0 0;
 
-    flex-wrap: wrap;
-    flex-direction: row;
+    .generic__images {
+      margin: -2rem;
 
-    .generic__image {
-      padding: 2rem;
+      flex-wrap: wrap;
+      flex-direction: row;
 
-      &--one-one {
-        width: 100%;
-      }
+      .generic__image {
+        padding: 2rem;
 
-      &--one-two {
-        width: 50%;
-      }
+        &--one-one {
+          width: 100%;
+        }
 
-      &--one-third {
-        width: 33.3333%;
-      }
+        &--one-two {
+          width: 50%;
+        }
 
-      &--two-third {
-        width: 66.6666%;
-      }
+        &--one-third {
+          width: 33.3333%;
+        }
 
-      // TODO: Use class instead of tag
-      img {
-        width: 100%;
-        height: auto;
+        &--two-third {
+          width: 66.6666%;
+        }
+
+        // TODO: Use class instead of tag
+        img {
+          width: 100%;
+          height: auto;
+        }
       }
     }
   }

@@ -5,8 +5,8 @@
   &__image,
   &__sidebar {
     width: 50%;
+    height: calc(100vh - 135.5px);
     object-fit: cover;
-    aspect-ratio: 960 / 811;
   }
 
   &__sidebar {

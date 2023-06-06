@@ -1,0 +1,48 @@
+.button {
+  gap: 0.5rem;
+  color: #3c3c3c;
+  border: 3px solid #3c3c3c;
+  display: flex;
+  transition: all 0.3s ease-in-out;
+  align-content: center;
+
+  font-weight: 600;
+  align-items: center;
+
+  &:hover {
+    color: #fff;
+    background: #3c3c3c;
+  }
+
+  &__icon {
+    display: flex;
+    margin-top: -1px;
+    align-items: center;
+  }
+
+  // Button colors
+  &--white {
+    background: #fff;
+  }
+
+  &--pink {
+    background: #ffefef;
+  }
+
+  // Button sizing
+
+  &--small {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+  }
+
+  &--medium {
+    font-size: 1.25rem;
+    padding: 1rem 1.5rem;
+  }
+
+  &--large {
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+  }
+}

@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Button from "@/components/Button";
+
 import styles from "./AboutHeader.module.scss";
 
 // TODO: This is a duplicate to ProjectHeader
@@ -19,13 +21,7 @@ export default function AboutHeader() {
           creëren en mensen te inspireren met mijn unieke visie en talenten.
         </p>
 
-        <a
-          href="mailto:info@lxframes.nl"
-          aria-label="Contact leggen"
-          className={styles.header__button}
-        >
-          Contact leggen
-        </a>
+        <Button title="Contact leggen" href="mailto:info@lxframes.nl" />
       </div>
 
       <Image

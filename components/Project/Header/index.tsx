@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Button from "@/components/Button";
+
 import styles from "./ProjectHeader.module.scss";
 
 import { ReactNode } from "react";
@@ -21,10 +23,13 @@ export default function ProjectHeader({
   return (
     <section className={styles.header}>
       <div className={styles.header__sidebar}>
-        <button className={styles.header__button} aria-label="Go back">
-          <FaArrowLeft />
-          Ga terug
-        </button>
+        <Button
+          icon={<FaArrowLeft />}
+          href="mailto:info@lxframes.nl"
+          size="small"
+          color="white"
+          title="Ga terug"
+        />
 
         <div className={styles.header__inner}>
           <h1 className={styles.header__title}>{title}</h1>
