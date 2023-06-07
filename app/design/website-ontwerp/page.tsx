@@ -21,7 +21,7 @@ export default function Detail() {
 
       <main>
         <ProjectHeader
-          color="#F1D9D8"
+          color="#18A660"
           title="Website ontwerp"
           content="Ik kreeg de kans om in opdracht van mevrouw Nicole ten Geusendam-Trompetter een website te ontwerpen voor haar onderneming: Kruidenpower."
           image={{
@@ -33,8 +33,8 @@ export default function Detail() {
         />
 
         <ProjectAssignment
-          color="#FFF9F9"
-          border="#F1D9D8"
+          color="#F5FFED"
+          border="#18A660"
           content={
             <>
               Ik ontwerp een rustgevende website waarbij de kruiden centraal
@@ -46,8 +46,8 @@ export default function Detail() {
         />
 
         <ProjectGeneric
-          color="#FFF9F9"
-          border="#F1D9D8"
+          color="#F5FFED"
+          border="#18A660"
           divider={true}
           title="Uitwerking"
           content="Hieronder vind je de uitwerking van de websites, inclusief buttons die direct naar de live website leiden. Dit project is gerealiseerd in samenwerking met Sjors van Holst. Ik was verantwoordelijk voor de vormgeving, terwijl hij heeft de volledige website geprogrammeerd. "

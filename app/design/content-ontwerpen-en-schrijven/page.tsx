@@ -23,7 +23,7 @@ export default function Detail() {
         <ProjectHeader
           color="#F1D9D8"
           title="Content ontwerpen en schrijven"
-          content="Ik kreeg de kans om in opdracht van Mediacollege Amsterdam een huisstijl te ontwerpen voor het Amsterdam Designmuseum. Het hele project werd in slechts vier weken afgerond, van 19 oktober tot 20 november 2020."
+          content="Ik kreeg de kans om in opdracht van Hoge school van Amsterdam content te schrijven en ontwerpen voor een fictief bedrijf. Het hele project werd in zeven weken afgerond, van 14 november tot 6 december 2022."
           image={{
             src: "/images/design/content-ontwerpen-en-schrijven/header.png",
             alt: "Content ontwerpen en schrijven",
@@ -37,10 +37,15 @@ export default function Detail() {
           border="#F1D9D8"
           content={
             <>
-              Ontwerp een <b>introductie</b> en <b>huisstijl</b> voor het
-              Amsterdam Designmuseum. Zorg ervoor dat de{" "}
-              <b>huisstijl dynamisch</b> die <b>universeel toepasbaar</b> is op
-              alle media-uitingen en introductiecampagne.
+              Als team van maximaal 3 studenten bedenken jullie samen een
+              bedrijf. Het bedrijf moet minimaal twee dingen
+              &apos;verkopen&apos;: zichzelf en een dienst of product. Kies een
+              onderwerp, product of dienst waar jullie affiniteit mee hebben.
+              Jullie vormen een kleine onderneming, zzp&apos;er of start-up.
+              Jullie doel is om content te ontwerpen voor de website van jullie
+              bedrijf, waarbij deze aansluit bij de bedrijfsdoelen, de
+              gebruikers (doelgroep), de gebruikersdoelen en de
+              gebruikersvragen.
             </>
           }
         />
@@ -48,26 +53,25 @@ export default function Detail() {
         <ProjectRow
           subtitle="Conceptontwikkeling"
           sizing="width"
-          title="De toekomst is baanbrekend"
+          title="ClubSafe"
           content={
             <>
               <p>
-                Mijn concept draagt de naam “De toekomst is baanbrekend” en is
-                erg uniek! Met mijn ontwerp wil ik laten zien dat het museum
-                boordevol nieuwe ideeën en inzichten zit. Het is een plek waar
-                je jezelf kunt ontdekken en volop inspiratie kunt opdoen.
+                ClubSafe is een door ons bedachte organisatie die zich richt op
+                het verbeteren van de veiligheid van uitgaande jongeren. Als
+                Non-Profit Organisatie ontvangen we financiering van het
+                Ministerie van Volksgezondheid, Welzijn en Sport, en werken we
+                nauw samen met tal van vrijwilligers.
               </p>
               <p>
-                Wat mijn huisstijl zo spannend maakt, is het blokkensysteem.
-                Stel je voor: elke keer dat je de blokken op een andere manier
-                stapelt, krijg je een compleet nieuw perspectief. Het is alsof
-                je telkens weer een frisse blik werpt op de wereld om je heen.
-                Het dynamische karakter van mijn ontwerp zal je zeker verrassen
-                en uitdagen om de dingen op een andere manier te bekijken.
-              </p>
-              <p>
-                Ontdek de grenzeloze mogelijkheden en laat je inspireren om de
-                toekomst op een baanbrekende manier tegemoet te komen
+                <b>Wat Clubsafe doet</b>: ClubSafe biedt guides die de gebruiker
+                kan voorbereiden op elke situatie! Voor de eerste keer of voor
+                de honderdste. Ook kan je Clubs uitzoeken die wij hebben
+                onderzocht en beoordeeld op verschillende onderwerpen zoals
+                veiligheid en toegankelijkheid! Voorlichtingen worden vooral op
+                hogescholen gegeven en komen in alle vormen en maten. Samen met
+                ons team word er gekeken naar hoe deze zo persoonlijk en uniek
+                mogelijk kunnen maken
               </p>
             </>
           }
@@ -83,8 +87,8 @@ export default function Detail() {
           color="#FFF9F9"
           border="#F1D9D8"
           divider={true}
-          title="De toekomst is baanbrekend"
-          content="Mijn concept draagt de naam “De toekomst is baanbrekend” en is erg uniek! Met mijn ontwerp wil ik laten zien dat het museum boordevol nieuwe ideeën en inzichten zit. Het is een plek waar je jezelf kunt ontdekken en volop inspiratie kunt opdoen."
+          title="Uitwerking"
+          content="De vormgeving van ClubSafe straalt vrolijkheid uit en creëert een sfeer alsof je je in de club bevindt. Het ontwerp is uitnodigend en de tone of voice is vriendelijk. Ons doel is om mensen voor te bereiden op mogelijke situaties tijdens het uitgaan, zonder ze af te schrikken. We willen benadrukken dat uitgaan leuk is! ClubSafe zet zich in om jonge feestgangers op een veilige manier een geweldige ervaring te bieden."
           images={[
             {
               alt: "Conceptontwikkeling",
@@ -95,11 +99,11 @@ export default function Detail() {
             },
           ]}
           buttons={[
-            <Button key="1" color="white" href="/test" title="XD-bestand" />,
+            <Button key="1" color="white" href="/" title="XD-bestand" />,
             <Button
               key="2"
               color="white"
-              href="/test"
+              href="/Club Safe Detail.pdf"
               title="Clufsafe uitgelegd"
             />,
           ]}
