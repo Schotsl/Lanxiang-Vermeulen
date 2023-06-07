@@ -1,5 +1,6 @@
 import styles from "../page.module.scss";
 
+import Button from "@/components/Button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Socials from "@/components/Socials";
@@ -22,7 +23,7 @@ export default function Detail() {
         <ProjectHeader
           color="#F1D9D8"
           title="Website ontwerp"
-          content="Ik kreeg de kans om in opdracht van Mediacollege Amsterdam een huisstijl te ontwerpen voor het Amsterdam Designmuseum. Het hele project werd in slechts vier weken afgerond, van 19 oktober tot 20 november 2020."
+          content="Ik kreeg de kans om in opdracht van mevrouw Nicole ten Geusendam-Trompetter een website te ontwerpen voor haar onderneming: Kruidenpower."
           image={{
             src: "/images/design/website-ontwerp/header.png",
             alt: "Website ontwerp",
@@ -36,54 +37,20 @@ export default function Detail() {
           border="#F1D9D8"
           content={
             <>
-              Ontwerp een <b>introductie</b> en <b>huisstijl</b> voor het
-              Amsterdam Designmuseum. Zorg ervoor dat de{" "}
-              <b>huisstijl dynamisch</b> die <b>universeel toepasbaar</b> is op
-              alle media-uitingen en introductiecampagne.
+              Ik ontwerp een rustgevende website waarbij de kruiden centraal
+              staan. Met zachte kleuren, natuurlijke afbeeldingen en een
+              intuïtieve navigatie. Informatieve inhoud over kruiden, een
+              gebruiksvriendelijke webshop met een responsive design
             </>
           }
-        />
-
-        <ProjectRow
-          subtitle="Conceptontwikkeling"
-          sizing="width"
-          title="De toekomst is baanbrekend"
-          content={
-            <>
-              <p>
-                Mijn concept draagt de naam “De toekomst is baanbrekend” en is
-                erg uniek! Met mijn ontwerp wil ik laten zien dat het museum
-                boordevol nieuwe ideeën en inzichten zit. Het is een plek waar
-                je jezelf kunt ontdekken en volop inspiratie kunt opdoen.
-              </p>
-              <p>
-                Wat mijn huisstijl zo spannend maakt, is het blokkensysteem.
-                Stel je voor: elke keer dat je de blokken op een andere manier
-                stapelt, krijg je een compleet nieuw perspectief. Het is alsof
-                je telkens weer een frisse blik werpt op de wereld om je heen.
-                Het dynamische karakter van mijn ontwerp zal je zeker verrassen
-                en uitdagen om de dingen op een andere manier te bekijken.
-              </p>
-              <p>
-                Ontdek de grenzeloze mogelijkheden en laat je inspireren om de
-                toekomst op een baanbrekende manier tegemoet te komen
-              </p>
-            </>
-          }
-          image={{
-            src: "/images/design/website-ontwerp/Plants.png",
-            alt: "Huisstijlsysteem",
-            width: 498,
-            height: 776,
-          }}
         />
 
         <ProjectGeneric
           color="#FFF9F9"
           border="#F1D9D8"
           divider={true}
-          title="De toekomst is baanbrekend"
-          content="Mijn concept draagt de naam “De toekomst is baanbrekend” en is erg uniek! Met mijn ontwerp wil ik laten zien dat het museum boordevol nieuwe ideeën en inzichten zit. Het is een plek waar je jezelf kunt ontdekken en volop inspiratie kunt opdoen."
+          title="Uitwerking"
+          content="Hieronder vind je de uitwerking van de websites, inclusief buttons die direct naar de live website leiden. Dit project is gerealiseerd in samenwerking met Sjors van Holst. Ik was verantwoordelijk voor de vormgeving, terwijl hij heeft de volledige website geprogrammeerd. "
           images={[
             {
               alt: "Conceptontwikkeling",
@@ -92,6 +59,20 @@ export default function Detail() {
               width: 2880,
               height: 1800,
             },
+          ]}
+          buttons={[
+            <Button
+              key="1"
+              color="white"
+              title="Portfolio"
+              href="https://nicoletrompetter.nl"
+            />,
+            <Button
+              key="2"
+              color="white"
+              title="Kruidenpower"
+              href="https://kruidenpower.nl"
+            />,
           ]}
         />
 
