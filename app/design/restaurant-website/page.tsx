@@ -20,9 +20,9 @@ export default function Detail() {
 
       <main>
         <ProjectHeader
-          color="#F1D9D8"
+          color="#8A612B"
           title="Restaurant website"
-          content="Ik kreeg de kans om in opdracht van Mediacollege Amsterdam een huisstijl te ontwerpen voor het Amsterdam Designmuseum. Het hele project werd in slechts vier weken afgerond, van 19 oktober tot 20 november 2020."
+          content="Ik kreeg de kans om in opdracht van Hoge school van Amsterdam een website te ontwerpen voor een fictief restaurant. Het hele project werd in zeven weken afgerond, van 14 november tot 6 december 2022."
           image={{
             src: "/images/design/restaurant-website/header.png",
             alt: "Restaurant website",
@@ -32,14 +32,15 @@ export default function Detail() {
         />
 
         <ProjectAssignment
-          color="#FFF9F9"
-          border="#F1D9D8"
+          color="#FFECD5"
+          border="#8A612B"
           content={
             <>
-              Ontwerp een <b>introductie</b> en <b>huisstijl</b> voor het
-              Amsterdam Designmuseum. Zorg ervoor dat de <b>huisstijl</b>{" "}
-              <b>dynamisch</b> die <b>universeel toepasbaar</b> is op alle
-              media-uitingen en introductiecampagne.
+              Maak een <b>single page</b> website voor een <b>restaurant</b>. De
+              single page bestaat uitsluitend uit <b>vorm, kleur en tekst</b>,
+              dus geen afbeeldingen. De stijl van een{" "}
+              <b>Nederlandse vormgever</b> is het uitgangspunt voor de
+              vormgeving. De vormgever is al voor je gekozen!
             </>
           }
         />
@@ -51,22 +52,13 @@ export default function Detail() {
           content={
             <>
               <p>
-                Mijn concept draagt de naam “De toekomst is baanbrekend” en is
-                erg uniek! Met mijn ontwerp wil ik laten zien dat het museum
-                boordevol nieuwe ideeën en inzichten zit. Het is een plek waar
-                je jezelf kunt ontdekken en volop inspiratie kunt opdoen.
-              </p>
-              <p>
-                Wat mijn huisstijl zo spannend maakt, is het blokkensysteem.
-                Stel je voor: elke keer dat je de blokken op een andere manier
-                stapelt, krijg je een compleet nieuw perspectief. Het is alsof
-                je telkens weer een frisse blik werpt op de wereld om je heen.
-                Het dynamische karakter van mijn ontwerp zal je zeker verrassen
-                en uitdagen om de dingen op een andere manier te bekijken.
-              </p>
-              <p>
-                Ontdek de grenzeloze mogelijkheden en laat je inspireren om de
-                toekomst op een baanbrekende manier tegemoet te komen
+                Ik kreeg de opdracht toegewezen om te werken met de kunstenaar
+                Anthon Beeke. Anthon Beeke onderscheidt zich van andere
+                kunstenaars door zijn unieke stijl. Hij houdt zich niet aan
+                conventionele regels, en dit is duidelijk zichtbaar in zijn
+                werk. Zijn creaties zijn vaak intens, maar hebben altijd een
+                ethische ondertoon. Ik heb deze kenmerken toegepast in mijn
+                website ontwerp.
               </p>
             </>
           }
@@ -79,10 +71,10 @@ export default function Detail() {
         />
 
         <ProjectGeneric
-          color="#FFF9F9"
-          border="#F1D9D8"
-          title="Uitwerking"
-          content="Hieronder vind je een deel van mijn grondige onderzoek voor het Amsterdam Designmuseum project. Ik heb me toegewijd aan het verkennen van de doelgroep, concurrentie en het product. Daarnaast heb ik uitgebreid onderzoek gedaan naar bijpassende ontwerpers en disciplines."
+          color="#FFECD5"
+          border="#8A612B"
+          title="Het proces"
+          content="Het proces was bijzonder plezierig en leerzaam. Ik heb veel geëxperimenteerd met diverse ontwerptechnieken. Zo heb ik me laten inspireren door karton en verschillende soorten papier, waarbij ik speelsheid in mijn ontwerpen heb gebracht."
           divider={true}
           images={[
             {
@@ -97,10 +89,10 @@ export default function Detail() {
 
         <ProjectGeneric
           sizing="width"
-          color="#FFF9F9"
-          border="#F1D9D8"
+          color="#FFECD5"
+          border="#8A612B"
           title="Uitwerking"
-          content="Hieronder vind je een deel van mijn grondige onderzoek voor het Amsterdam Designmuseum project. Ik heb me toegewijd aan het verkennen van de doelgroep, concurrentie en het product. Daarnaast heb ik uitgebreid onderzoek gedaan naar bijpassende ontwerpers en disciplines."
+          content="Ik ben enorm trots op het resultaat van mijn werk. De speelsheid van de plaatsing van de elementen is duidelijk zichtbaar en geeft een levendig karakter aan het ontwerp. De stijl is sterk geïnspireerd door de designposters die Anthon Beeke heeft gemaakt, waardoor er een harmonieus samenspel ontstaat tussen zijn artistieke invloeden en mijn eigen creativiteit."
           divider={true}
           images={[
             {
