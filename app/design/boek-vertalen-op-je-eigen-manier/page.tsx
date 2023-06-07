@@ -23,7 +23,7 @@ export default function Detail() {
         <ProjectHeader
           color="#F1D9D8"
           title="Boek vertalen op je eigen manier"
-          content="Ik kreeg de kans om in opdracht van Mediacollege Amsterdam een huisstijl te ontwerpen voor het Amsterdam Designmuseum. Het hele project werd in slechts vier weken afgerond, van 19 oktober tot 20 november 2020."
+          content="Ik kreeg de kans om in opdracht van Mediacollege Amsterdam een eigen vertaling van een boek naar keuze uit te werken. Het hele project werd in slechts vier weken afgerond, van 15 mei tot 7 juni 2020."
           image={{
             src: "/images/design/boek-vertalen-op-je-eigen-manier/header.png",
             alt: "Boek vertalen op je eigen manier",
@@ -37,10 +37,9 @@ export default function Detail() {
           border="#F1D9D8"
           content={
             <>
-              Ontwerp een <b>introductie</b> en <b>huisstijl</b> voor het
-              Amsterdam Designmuseum. Zorg ervoor dat de{" "}
-              <b>huisstijl dynamisch</b> die <b>universeel toepasbaar</b> is op
-              alle media-uitingen en introductiecampagne.
+              Maak een herontwerp voor een boek naar keuze. Maak een visuele
+              vertaling van het boek. Zorg ervoor dat de bladzijdes nog te lezen
+              zijn en het boek op locatie tentoongesteld kunnen worden.
             </>
           }
         />

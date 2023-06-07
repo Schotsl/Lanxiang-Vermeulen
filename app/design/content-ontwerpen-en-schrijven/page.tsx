@@ -99,7 +99,12 @@ export default function Detail() {
             },
           ]}
           buttons={[
-            <Button key="1" color="white" href="/" title="XD-bestand" />,
+            <Button
+              key="1"
+              color="white"
+              href="/Content ClubSafe.xd"
+              title="XD-bestand"
+            />,
             <Button
               key="2"
               color="white"
