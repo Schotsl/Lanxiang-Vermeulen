@@ -1,5 +1,6 @@
 import styles from "../page.module.scss";
 
+import Button from "@/components/Button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Socials from "@/components/Socials";
@@ -84,6 +85,14 @@ export default function Detail() {
           title="Het verhaal"
           content="Hieronder vind je een deel van mijn grondige onderzoek voor het Amsterdam Designmuseum project. Ik heb me toegewijd aan het verkennen van de doelgroep, concurrentie en het product. Daarnaast heb ik uitgebreid onderzoek gedaan naar bijpassende ontwerpers en disciplines."
           divider={true}
+          buttons={[
+            <Button
+              key="1"
+              color="white"
+              href="/Boekenproject_procces.pdf"
+              title="Bekijk het proces"
+            />,
+          ]}
           images={[
             {
               alt: "Conceptontwikkeling",
