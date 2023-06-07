@@ -46,27 +46,17 @@ export default function Detail() {
 
         <ProjectRow
           subtitle="Conceptontwikkeling"
-          title="'T Hooge nest"
+          title="Verzets-tonen"
           sizing="width"
           content={
             <>
               <p>
-                Mijn concept draagt de naam “De toekomst is baanbrekend” en is
-                erg uniek! Met mijn ontwerp wil ik laten zien dat het museum
-                boordevol nieuwe ideeën en inzichten zit. Het is een plek waar
-                je jezelf kunt ontdekken en volop inspiratie kunt opdoen.
-              </p>
-              <p>
-                Wat mijn huisstijl zo spannend maakt, is het blokkensysteem.
-                Stel je voor: elke keer dat je de blokken op een andere manier
-                stapelt, krijg je een compleet nieuw perspectief. Het is alsof
-                je telkens weer een frisse blik werpt op de wereld om je heen.
-                Het dynamische karakter van mijn ontwerp zal je zeker verrassen
-                en uitdagen om de dingen op een andere manier te bekijken.
-              </p>
-              <p>
-                Ontdek de grenzeloze mogelijkheden en laat je inspireren om de
-                toekomst op een baanbrekende manier tegemoet te komen
+                In het boek stuurt Eberhard (partner van Lientje) een geheim
+                bericht via muziekbladen. Dit vond ik zo krachtig. Daarom wil ik
+                de muziekbladen verwerken in het boek en hangend presenteren aan
+                prikkeldraad. Ik ga een ruimte creëren dat klein, benauwd en
+                oncomfortabel voelt. Maar ook een kracht en saamhorigheid opwekt
+                door de muziek.
               </p>
             </>
           }
@@ -82,7 +72,7 @@ export default function Detail() {
           color="#FFF9F9"
           border="#F1D9D8"
           title="Het verhaal"
-          content="Hieronder vind je een deel van mijn grondige onderzoek voor het Amsterdam Designmuseum project. Ik heb me toegewijd aan het verkennen van de doelgroep, concurrentie en het product. Daarnaast heb ik uitgebreid onderzoek gedaan naar bijpassende ontwerpers en disciplines."
+          content="Hieronder kan je het volledige verhaal en onderzoek bekijken van mijn vertaling van het boek: T’hooge nest. Via de knop die hieronder staat kan je mijn volledige onderzoek bekijken. "
           divider={true}
           buttons={[
             <Button
@@ -106,8 +96,8 @@ export default function Detail() {
         <ProjectGeneric
           color="#FFF9F9"
           border="#F1D9D8"
-          title="Het verhaal"
-          content="Hieronder vind je een deel van mijn grondige onderzoek voor het Amsterdam Designmuseum project. Ik heb me toegewijd aan het verkennen van de doelgroep, concurrentie en het product. Daarnaast heb ik uitgebreid onderzoek gedaan naar bijpassende ontwerpers en disciplines."
+          title="Uitwerking"
+          content="Ik ben enorm trots op het eindresultaat van dit project. Het is me gelukt om het gevoel van het boek perfect over te brengen, en daarom heb ik dit project mogen afsluiten met een hele mooie 10. Naast het plezier dat ik had tijdens het maken ervan, realiseerde ik me ook hoe waardevol vrijheid eigenlijk is."
           divider={true}
           images={[
             {
