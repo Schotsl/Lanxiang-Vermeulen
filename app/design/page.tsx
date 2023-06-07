@@ -26,14 +26,14 @@ const projects = [
     },
   },
   {
-    slug: "posters-voor-protesters",
+    slug: "het-passieproject",
     width: "two-third",
-    title: "Posters voor protesters",
+    title: "Het passieproject",
     client: "Mediacollege Amsterdam",
     subtitle: "Huisstijl voor",
     image: {
-      src: "/images/design/posters-voor-protesters/header.png",
-      alt: "Posters voor protesters",
+      src: "/images/design/het-passieproject/header.png",
+      alt: "Het passieproject",
       width: 4162,
       height: 2770,
     },
