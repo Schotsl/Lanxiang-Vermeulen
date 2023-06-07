@@ -2,8 +2,6 @@
 @import "@/styles/mixins.scss";
 
 .project {
-  @include clickable-image;
-
   position: relative;
   grid-column: span 12;
 

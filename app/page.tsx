@@ -17,7 +17,7 @@ const projects = [
     width: "one-third",
     title: "Amsterdam Designmuseum",
     client: "Mediacollege Amsterdam",
-    subtitle: "Huisstijl voor",
+    subtitle: "Design voor",
     image: {
       src: "/images/design/amsterdam-designmuseum/header.png",
       alt: "Amsterdam Designmuseum",
@@ -29,8 +29,8 @@ const projects = [
     slug: "het-passieproject",
     width: "two-third",
     title: "Het passieproject",
-    client: "Mediacollege Amsterdam",
-    subtitle: "Huisstijl voor",
+    client: "Hogeschool van Amsterdam",
+    subtitle: "Design voor",
     image: {
       src: "/images/design/het-passieproject/header.png",
       alt: "Het passieproject",
@@ -43,7 +43,7 @@ const projects = [
     width: "one-third",
     title: "Stem tegen Fast Fashion",
     client: "Mediacollege Amsterdam",
-    subtitle: "Huisstijl voor",
+    subtitle: "Design voor",
     image: {
       src: "/images/design/stem-tegen-fast-fashion/header.png",
       alt: "Stem tegen Fast Fashion",
@@ -55,8 +55,8 @@ const projects = [
     slug: "restaurant-website",
     width: "one-third",
     title: "Restaurant website",
-    client: "Mediacollege Amsterdam",
-    subtitle: "Huisstijl voor",
+    client: "Hogeschool van Amsterdam",
+    subtitle: "Design voor",
     image: {
       src: "/images/design/restaurant-website/header.png",
       alt: "Restaurant website",
@@ -68,8 +68,8 @@ const projects = [
     slug: "website-ontwerp",
     width: "one-third",
     title: "Website ontwerp",
-    client: "Mediacollege Amsterdam",
-    subtitle: "Huisstijl voor",
+    client: "Nicole Trompetter",
+    subtitle: "Design voor",
     image: {
       src: "/images/design/website-ontwerp/header.png",
       alt: "Website ontwerp",
@@ -81,8 +81,8 @@ const projects = [
     slug: "content-ontwerpen-en-schrijven",
     width: "one-third",
     title: "Content ontwerpen en schrijven",
-    client: "Mediacollege Amsterdam",
-    subtitle: "Huisstijl voor",
+    client: "Hogeschool van Amsterdam",
+    subtitle: "Design voor",
     image: {
       src: "/images/design/content-ontwerpen-en-schrijven/header.png",
       alt: "Content ontwerpen en schrijven",
@@ -94,8 +94,8 @@ const projects = [
     slug: "boek-vertalen-op-je-eigen-manier",
     width: "two-third",
     title: "Boek vertalen op je eigen manier",
-    client: "Mediacollege Amsterdam",
-    subtitle: "Huisstijl voor",
+    client: "Hogeschool van Amsterdam",
+    subtitle: "Design voor",
     image: {
       src: "/images/design/boek-vertalen-op-je-eigen-manier/header.png",
       alt: "Boek vertalen op je eigen manier",
