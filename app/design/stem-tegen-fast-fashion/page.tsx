@@ -22,7 +22,7 @@ export default function Detail() {
         <ProjectHeader
           color="#18A660"
           title="Stem tegen Fast Fashion"
-          content="Ik kreeg de kans om in opdracht van Mediacollege Amsterdam een huisstijl te ontwerpen voor het Amsterdam Designmuseum. Het hele project werd in slechts vier weken afgerond, van 19 oktober tot 20 november 2020."
+          content="Ik kreeg de kans om in opdracht van Mediacollege Amsterdam een huisstijl te ontwerpen voor een beweging naar keuze. Het hele project werd in slechts vier weken afgerond, van 15 September tot 31 Oktober 2020."
           image={{
             src: "/images/design/stem-tegen-fast-fashion/header.png",
             alt: "Stem tegen Fast Fashion",
@@ -36,10 +36,12 @@ export default function Detail() {
           border="#18A660"
           content={
             <>
-              Ontwerp een <b>introductie</b> en <b>huisstijl</b> voor het
-              Amsterdam Designmuseum. Zorg ervoor dat de{" "}
-              <b>huisstijl dynamisch</b> die <b>universeel toepasbaar</b> is op
-              alle media-uitingen en introductiecampagne.
+              Ontwerp een <b>huisstijl</b> voor een{" "}
+              <b>beweging naar jouw keuze</b>. Deze beweging kan gerelateerd
+              zijn aan milieuactivisme, liefdadigheid, cultuur of een ander
+              onderwerp waar je gepassioneerd over bent. Het doel van deze
+              opdracht is om jouw creatieve vaardigheden te laten zien en een
+              visuele identiteit te creëren.
             </>
           }
         />
@@ -47,26 +49,24 @@ export default function Detail() {
         <ProjectRow
           sizing="width"
           subtitle="Conceptontwikkeling"
-          title="De toekomst is baanbrekend"
+          title="Welkom in de klerezooi"
           content={
             <>
               <p>
-                Mijn concept draagt de naam “De toekomst is baanbrekend” en is
-                erg uniek! Met mijn ontwerp wil ik laten zien dat het museum
-                boordevol nieuwe ideeën en inzichten zit. Het is een plek waar
-                je jezelf kunt ontdekken en volop inspiratie kunt opdoen.
+                Als model ben ik diep betrokken bij de kledingindustrie, en
+                daarom heb ik ervoor gekozen om een huisstijl te ontwerpen voor
+                de slow fashion beweging. Ik zie de schrijnende impact die deze
+                industrie heeft op verschillende aspecten van onze wereld. De
+                fast fashion industrie maakt er werkelijk een puinhoop van, en
+                op dit moment is de kreet “Welkom in de klerezooi!” meer dan
+                toepasselijk.
               </p>
               <p>
-                Wat mijn huisstijl zo spannend maakt, is het blokkensysteem.
-                Stel je voor: elke keer dat je de blokken op een andere manier
-                stapelt, krijg je een compleet nieuw perspectief. Het is alsof
-                je telkens weer een frisse blik werpt op de wereld om je heen.
-                Het dynamische karakter van mijn ontwerp zal je zeker verrassen
-                en uitdagen om de dingen op een andere manier te bekijken.
-              </p>
-              <p>
-                Ontdek de grenzeloze mogelijkheden en laat je inspireren om de
-                toekomst op een baanbrekende manier tegemoet te komen
+                Met mijn huisstijlontwerp wil ik bewustwording creëren en een
+                positieve verandering in gang zetten. Het is essentieel dat de
+                huisstijl de kernwaarden van de slow fashion beweging
+                weerspiegelt, zoals duurzaamheid, ethiek, eerlijke
+                arbeidsomstandigheden en bewuste consumptie.
               </p>
             </>
           }
@@ -84,8 +84,30 @@ export default function Detail() {
           sizing="width"
           divider={true}
           title="De toekomst is baanbrekend"
-          content="Mijn concept draagt de naam “De toekomst is baanbrekend” en is erg uniek! Met mijn ontwerp wil ik laten zien dat het museum boordevol nieuwe ideeën en inzichten zit. Het is een plek waar je jezelf kunt ontdekken en volop inspiratie kunt opdoen."
-          subtitle="Conceptontwikkeling"
+          content={
+            <>
+              <p>
+                De fase fashion industrie heeft veel impact op het klimaat,
+                dieren, mensen en het milieu. Om deze problematiek te
+                benadrukken, heb ik ervoor gekozen om deze vier aspecten te
+                verwerken in mijn logo. Mijn logo bestaat uit een knoopje met
+                vier gaten, die elk verwijzen naar een van deze sectoren.
+              </p>
+              <p>
+                Het knoopje dient als symbool voor kinderarbeid, een schrijnend
+                probleem dat nog steeds voorkomt in de kledingindustrie. Het
+                herinnert ons aan de ernstige omstandigheden waarin kinderen
+                gedwongen worden te werken voor de productie van goedkope
+                kleding.
+              </p>
+              <p>
+                De vier gaten in het knoopje vertegenwoordigen specifiek het
+                klimaat, dieren, mensen en het milieu. Elk gat staat symbool
+                voor de negatieve impact die de fast fashion industrie heeft op
+                deze gebieden.
+              </p>
+            </>
+          }
           images={[
             {
               alt: "Conceptontwikkeling",
@@ -101,7 +123,7 @@ export default function Detail() {
           color="#F5FFED"
           border="#18A660"
           title="Uitwerking"
-          content="Hieronder vind je een deel van mijn grondige onderzoek voor het Amsterdam Designmuseum project. Ik heb me toegewijd aan het verkennen van de doelgroep, concurrentie en het product. Daarnaast heb ik uitgebreid onderzoek gedaan naar bijpassende ontwerpers en disciplines."
+          content="Hieronder zie je de vier posters die aankondigen dat er een protest op komst is."
           divider={true}
           images={[
             {

@@ -47,6 +47,7 @@ export default function Detail() {
 
         <ProjectRow
           title="Expositie mensen verhalen"
+          subtitle="Conceptontwikkeling"
           content={
             <>
               <p>
