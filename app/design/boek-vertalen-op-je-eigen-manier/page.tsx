@@ -46,7 +46,8 @@ export default function Detail() {
 
         <ProjectRow
           subtitle="Conceptontwikkeling"
-          title="De toekomst is baanbrekend"
+          title="'T Hooge nest"
+          sizing="width"
           content={
             <>
               <p>
@@ -70,47 +71,50 @@ export default function Detail() {
             </>
           }
           image={{
-            src: "/images/design/boek-vertalen-op-je-eigen-manier/Poster.png",
-            alt: "Poster",
-            width: 1258,
-            height: 1790,
+            src: "/images/design/boek-vertalen-op-je-eigen-manier/1.png",
+            alt: "'T Hooge nest",
+            width: 1125,
+            height: 2000,
           }}
         />
 
         <ProjectGeneric
           color="#FFF9F9"
           border="#F1D9D8"
-          title="Uitwerking"
+          title="Het verhaal"
           content="Hieronder vind je een deel van mijn grondige onderzoek voor het Amsterdam Designmuseum project. Ik heb me toegewijd aan het verkennen van de doelgroep, concurrentie en het product. Daarnaast heb ik uitgebreid onderzoek gedaan naar bijpassende ontwerpers en disciplines."
           divider={true}
           images={[
             {
               alt: "Conceptontwikkeling",
-              src: "/images/design/project/1.png",
+              src: "/images/design/boek-vertalen-op-je-eigen-manier/2.png",
+              size: "one-one",
+              width: 1348,
+              height: 1800,
+            },
+          ]}
+        />
+
+        <ProjectGeneric
+          color="#FFF9F9"
+          border="#F1D9D8"
+          title="Het verhaal"
+          content="Hieronder vind je een deel van mijn grondige onderzoek voor het Amsterdam Designmuseum project. Ik heb me toegewijd aan het verkennen van de doelgroep, concurrentie en het product. Daarnaast heb ik uitgebreid onderzoek gedaan naar bijpassende ontwerpers en disciplines."
+          divider={true}
+          images={[
+            {
+              alt: "Conceptontwikkeling",
+              src: "/images/design/boek-vertalen-op-je-eigen-manier/3.png",
               size: "one-two",
-              width: 798,
-              height: 1197,
+              width: 3024,
+              height: 4032,
             },
             {
               alt: "Conceptontwikkeling",
-              src: "/images/design/project/2.png",
+              src: "/images/design/boek-vertalen-op-je-eigen-manier/4.png",
               size: "one-two",
-              width: 798,
-              height: 1197,
-            },
-            {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/project/3.png",
-              size: "one-two",
-              width: 798,
-              height: 1197,
-            },
-            {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/project/4.png",
-              size: "one-two",
-              width: 798,
-              height: 1197,
+              width: 1338,
+              height: 1798,
             },
           ]}
         />

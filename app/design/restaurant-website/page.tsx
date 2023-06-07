@@ -37,9 +37,9 @@ export default function Detail() {
           content={
             <>
               Ontwerp een <b>introductie</b> en <b>huisstijl</b> voor het
-              Amsterdam Designmuseum. Zorg ervoor dat de{" "}
-              <b>huisstijl dynamisch</b> die <b>universeel toepasbaar</b> is op
-              alle media-uitingen en introductiecampagne.
+              Amsterdam Designmuseum. Zorg ervoor dat de <b>huisstijl</b>{" "}
+              <b>dynamisch</b> die <b>universeel toepasbaar</b> is op alle
+              media-uitingen en introductiecampagne.
             </>
           }
         />
@@ -47,7 +47,7 @@ export default function Detail() {
         <ProjectRow
           sizing="width"
           subtitle="Conceptontwikkeling"
-          title="De toekomst is baanbrekend"
+          title="Lan'x restaurant"
           content={
             <>
               <p>
