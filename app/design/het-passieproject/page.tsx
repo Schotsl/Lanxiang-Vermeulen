@@ -123,6 +123,14 @@ export default function Detail() {
           ]}
         />
 
+        <ProjectGeneric
+          color="#FFF9F9"
+          border="#774F40"
+          title="De expositie"
+          content="Hieronder kun je onze video bekijken van de volledige expositie. We zijn verheugd te kunnen mededelen dat dit project met succes is afgerond en dat we een 10 hebben behaald!"
+          divider={true}
+        />
+
         <div className={styles.detail__socials}>
           <Socials />
         </div>

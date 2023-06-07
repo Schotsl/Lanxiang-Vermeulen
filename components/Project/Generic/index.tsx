@@ -14,7 +14,7 @@ type ProjectGenericProps = {
   title: string;
   border: string;
   sizing?: "height" | "width";
-  images: ProjectGenericImage[];
+  images?: ProjectGenericImage[];
   content: ReactNode;
   buttons?: ReactNode[];
   divider?: boolean;
@@ -52,25 +52,37 @@ export default function ProjectGeneric({
       <div className={styles.generic__buttons}>{buttons}</div>
 
       {/* TODO: Move to a seperate component */}
-      <div className={styles.generic__container}>
-        <ul className={styles.generic__images}>
-          {images.map((image) => {
-            const imageWidth = `generic__image--${image.size}`;
-            const imageClasses = `${styles.generic__image} ${styles[imageWidth]}`;
+      {/* // If images have been provided */}
+      {(images && (
+        <div className={styles.generic__container}>
+          <ul className={styles.generic__images}>
+            {images.map((image) => {
+              const imageWidth = `generic__image--${image.size}`;
+              const imageClasses = `${styles.generic__image} ${styles[imageWidth]}`;
 
-            return (
-              <li className={imageClasses} key={image.src}>
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  width={image.width}
-                  height={image.height}
-                />
-              </li>
-            );
-          })}
-        </ul>
-      </div>
+              return (
+                <li className={imageClasses} key={image.src}>
+                  <Image
+                    src={image.src}
+                    alt={image.alt}
+                    width={image.width}
+                    height={image.height}
+                  />
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )) || (
+        <iframe
+          width="560"
+          height="315"
+          className={styles.generic__video}
+          src="https://www.youtube.com/embed/gAsLaRyj4co"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        ></iframe>
+      )}
     </section>
   );
 }

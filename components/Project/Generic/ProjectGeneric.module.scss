@@ -43,6 +43,12 @@
     display: flex;
   }
 
+  .generic__video {
+    width: 80%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+  }
+
   &__container {
     width: 80%;
     margin: 2.5rem 0 0;

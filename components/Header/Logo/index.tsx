@@ -7,7 +7,7 @@ import styles from "./HeaderLogo.module.scss";
 export default function HeaderLogo() {
   return (
     <div className={styles.logo}>
-      <a className={styles.logo__link} href="index.html">
+      <a className={styles.logo__link} href="/">
         <Image
           src="/images/logo.png"
           alt="Lxframes logo"
