@@ -8,7 +8,8 @@
   flex-direction: column;
   justify-content: center;
 
-  &__content {
+  &__content,
+  &__author {
     width: 45%;
     text-align: center;
 
@@ -22,6 +23,19 @@
 
     b {
       font-weight: 500;
+    }
+  }
+
+  &__author {
+    margin: 0.5rem 0 0;
+    font-weight: 400;
+
+    &::before {
+      content: "- ";
+    }
+
+    &::after {
+      content: none;
     }
   }
 
