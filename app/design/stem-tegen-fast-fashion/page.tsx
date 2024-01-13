@@ -22,7 +22,7 @@ export default function Detail() {
         <ProjectHeader
           color="#18A660"
           title="Stem tegen Fast Fashion"
-          content="Ik kreeg de kans om in opdracht van Mediacollege Amsterdam een huisstijl te ontwerpen voor een beweging naar keuze. Het hele project werd in slechts vier weken afgerond, van 15 September tot 31 Oktober 2020."
+          content="Ik kreeg de kans om in opdracht van Mediacollege Amsterdam een huisstijl te ontwerpen voor een protestbeweging naar keuze. Het hele project werd in slechts vier weken afgerond, van 15 September tot 31 Oktober 2020."
           image={{
             src: "/images/design/stem-tegen-fast-fashion/header.png",
             alt: "Stem tegen Fast Fashion",
@@ -34,6 +34,8 @@ export default function Detail() {
         <ProjectAssignment
           color="#F5FFED"
           border="#18A660"
+          title="Branding voor jouw protest"
+          author="Mediacollege Amsterdam"
           content={
             <>
               Ontwerp een <b>huisstijl</b> voor een{" "}
@@ -53,20 +55,18 @@ export default function Detail() {
           content={
             <>
               <p>
-                Als model ben ik diep betrokken bij de kledingindustrie, en
-                daarom heb ik ervoor gekozen om een huisstijl te ontwerpen voor
-                de slow fashion beweging. Ik zie de schrijnende impact die deze
-                industrie heeft op verschillende aspecten van onze wereld. De
-                fast fashion industrie maakt er werkelijk een puinhoop van, en
-                op dit moment is de kreet “Welkom in de klerezooi!” meer dan
-                toepasselijk.
+                Als model ben ik sterk betrokken bij de kledingindustrie en zie
+                ik hoezeer deze industrie de wereld beïnvloedt. Daarom heb ik
+                besloten om een ontwerp te maken voor de slow fashion beweging.
               </p>
               <p>
-                Met mijn huisstijlontwerp wil ik bewustwording creëren en een
-                positieve verandering in gang zetten. Het is essentieel dat de
-                huisstijl de kernwaarden van de slow fashion beweging
+                De fast fashion industrie maakt er serieus een rommeltje van, en
+                op dit moment is de uitspraak “Welkom in de klerezooi!” echt van
+                toepassing. Met mijn ontwerp wil ik mensen bewust maken en een
+                positieve verandering teweegbrengen. Het is belangrijk dat de
+                huisstijl de belangrijkste waarden van de slow fashion beweging
                 weerspiegelt, zoals duurzaamheid, ethiek, eerlijke
-                arbeidsomstandigheden en bewuste consumptie.
+                werkomstandigheden en bewust consumeren.
               </p>
             </>
           }
@@ -83,28 +83,20 @@ export default function Detail() {
           border="#18A660"
           sizing="width"
           divider={true}
-          title="De toekomst is baanbrekend"
+          title="Logo uitleg"
           content={
             <>
               <p>
-                De fase fashion industrie heeft veel impact op het klimaat,
-                dieren, mensen en het milieu. Om deze problematiek te
-                benadrukken, heb ik ervoor gekozen om deze vier aspecten te
-                verwerken in mijn logo. Mijn logo bestaat uit een knoopje met
-                vier gaten, die elk verwijzen naar een van deze sectoren.
-              </p>
-              <p>
-                Het knoopje dient als symbool voor kinderarbeid, een schrijnend
-                probleem dat nog steeds voorkomt in de kledingindustrie. Het
-                herinnert ons aan de ernstige omstandigheden waarin kinderen
-                gedwongen worden te werken voor de productie van goedkope
-                kleding.
-              </p>
-              <p>
-                De vier gaten in het knoopje vertegenwoordigen specifiek het
-                klimaat, dieren, mensen en het milieu. Elk gat staat symbool
-                voor de negatieve impact die de fast fashion industrie heeft op
-                deze gebieden.
+                De mode-industrie heeft grote invloed op het klimaat, dieren,
+                mensen en het milieu. Om dit te benadrukken, heb ik ervoor
+                gekozen om deze vier aspecten te verwerken in mijn logo: een
+                knoopje met vier gaten, elk verwijzend naar één van deze
+                sectoren.Het knoopje symboliseert kinderarbeid, een schrijnend
+                probleem in de kledingindustrie. Het herinnert ons aan de
+                ernstige omstandigheden waarin kinderen gedwongen worden te
+                werken voor goedkope kleding. De vier gaten in het knoopje
+                vertegenwoordigen specifiek de impact van de fast fashion
+                industrie op het klimaat, dieren, mensen en het milieu.
               </p>
             </>
           }

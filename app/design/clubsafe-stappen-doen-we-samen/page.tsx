@@ -11,7 +11,7 @@ import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
 export const metadata = {
-  title: "Lxframes - Content ontwerpen en schrijven",
+  title: "Lxframes - Clubsafe: Stappen doen we samen!",
 };
 
 export default function Detail() {
@@ -22,8 +22,8 @@ export default function Detail() {
       <main>
         <ProjectHeader
           color="#F1D9D8"
-          title="Content ontwerpen en schrijven"
-          content="Ik kreeg de kans om in opdracht van Hoge school van Amsterdam content te schrijven en ontwerpen voor een fictief bedrijf. Het hele project werd in zeven weken afgerond, van 14 november tot 6 december 2022."
+          title="Clubsafe: Stappen doen we samen!"
+          content="Ik kreeg de kans om in opdracht van de Hogeschool van Amsterdam content te schrijven en ontwerpen voor een fictief bedrijf. Het hele project werd in zeven weken afgerond, van 14 november tot 6 december 2022."
           image={{
             src: "/images/design/content-ontwerpen-en-schrijven/header.png",
             alt: "Content ontwerpen en schrijven",
@@ -34,18 +34,14 @@ export default function Detail() {
 
         <ProjectAssignment
           color="#FFF9F9"
+          title="Start je eigen bedrijf!"
           border="#F1D9D8"
+          author="Hogeschool van Amsterdam"
           content={
             <>
               Als team van maximaal 3 studenten bedenken jullie samen een
               bedrijf. Het bedrijf moet minimaal twee dingen
-              &apos;verkopen&apos;: zichzelf en een dienst of product. Kies een
-              onderwerp, product of dienst waar jullie affiniteit mee hebben.
-              Jullie vormen een kleine onderneming, zzp&apos;er of start-up.
-              Jullie doel is om content te ontwerpen voor de website van jullie
-              bedrijf, waarbij deze aansluit bij de bedrijfsdoelen, de
-              gebruikers (doelgroep), de gebruikersdoelen en de
-              gebruikersvragen.
+              &apos;verkopen&apos;: zichzelf en een dienst of product.
             </>
           }
         />
@@ -53,25 +49,19 @@ export default function Detail() {
         <ProjectRow
           subtitle="Conceptontwikkeling"
           sizing="width"
-          title="ClubSafe"
+          title="Ons bedrijf: Clubsafe"
           content={
             <>
               <p>
-                ClubSafe is een door ons bedachte organisatie die zich richt op
-                het verbeteren van de veiligheid van uitgaande jongeren. Als
-                Non-Profit Organisatie ontvangen we financiering van het
-                Ministerie van Volksgezondheid, Welzijn en Sport, en werken we
-                nauw samen met tal van vrijwilligers.
+                ClubSafe is een door ons (Lanxiang Vermeulen & LuaTelgt)
+                bedachte organisatie die zich richt op het verbeteren van de
+                veiligheid van uitgaande jongeren. ClubSafe biedt guides die de
+                gebruiker kan voorbereiden op elke situatie! Voor de eerste keer
+                of voor de honderdste.
               </p>
               <p>
-                <b>Wat Clubsafe doet</b>: ClubSafe biedt guides die de gebruiker
-                kan voorbereiden op elke situatie! Voor de eerste keer of voor
-                de honderdste. Ook kan je Clubs uitzoeken die wij hebben
-                onderzocht en beoordeeld op verschillende onderwerpen zoals
-                veiligheid en toegankelijkheid! Voorlichtingen worden vooral op
-                hogescholen gegeven en komen in alle vormen en maten. Samen met
-                ons team word er gekeken naar hoe deze zo persoonlijk en uniek
-                mogelijk kunnen maken
+                Wil je meer weten over Clubsafe en het verhaal achter ons
+                (fictieve) bedrijf? Klik dan op de knop hieronder!
               </p>
             </>
           }

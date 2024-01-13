@@ -5,13 +5,12 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Socials from "@/components/Socials";
 
-import ProjectRow from "@/components/Project/Row";
 import ProjectHeader from "@/components/Project/Header";
 import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
 export const metadata = {
-  title: "Lxframes - Website ontwerp",
+  title: "Lxframes - De kracht van Kruidenpower",
 };
 
 export default function Detail() {
@@ -22,7 +21,7 @@ export default function Detail() {
       <main>
         <ProjectHeader
           color="#18A660"
-          title="Website ontwerp"
+          title="De kracht van Kruidenpower"
           content="Ik kreeg de kans om in opdracht van mevrouw Nicole ten Geusendam-Trompetter een website te ontwerpen voor haar onderneming: Kruidenpower."
           image={{
             src: "/images/design/website-ontwerp/header.png",
@@ -35,12 +34,15 @@ export default function Detail() {
         <ProjectAssignment
           color="#F5FFED"
           border="#18A660"
+          title="De power van kruiden"
+          author="Lanxiang Vermeulen"
           content={
             <>
-              Ik ontwerp een rustgevende website waarbij de kruiden centraal
-              staan. Met zachte kleuren, natuurlijke afbeeldingen en een
-              intuïtieve navigatie. Informatieve inhoud over kruiden, een
-              gebruiksvriendelijke webshop met een responsive design
+              Ik heb een <b>rustgevende website</b> ontworpen waarbij kruiden
+              centraal staan. De website is ontworpen{" "}
+              <b>met zachte kleuren, natuurlijke afbeeldingen</b> en een
+              intuïtieve navigatie. Het bevat informatieve inhoud over kruiden
+              en een gebruiksvriendelijke webshop met een responsive design.
             </>
           }
         />
@@ -50,7 +52,7 @@ export default function Detail() {
           border="#18A660"
           divider={true}
           title="Uitwerking"
-          content="Hieronder vind je de uitwerking van de websites, inclusief buttons die direct naar de live website leiden. Dit project is gerealiseerd in samenwerking met Sjors van Holst. Ik was verantwoordelijk voor de vormgeving, terwijl hij heeft de volledige website geprogrammeerd. "
+          content="Hieronder vind je de uitwerking van de websites, inclusief knoppen die direct naar haar portfolio en de Kruidenpower website leiden. Dit project is gerealiseerd in samenwerking met Sjors van Holst. Ik was verantwoordelijk voor de vormgeving, terwijl hij de website heeft geprogrammeerd."
           images={[
             {
               alt: "Conceptontwikkeling",
