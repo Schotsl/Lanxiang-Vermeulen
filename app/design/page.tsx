@@ -1,5 +1,4 @@
 // TODO: Rename project to projects
-
 import { Project } from "@/types";
 
 import Footer from "@/components/Footer";

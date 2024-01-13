@@ -23,21 +23,21 @@ export default function HeaderLinks() {
           Design
         </a>
       </li>
-      {/* <li className={styles.links__item}>
+      <li className={styles.links__item}>
         <a className={linkClasses("/fotografie")} href="/fotografie">
           Fotografie
         </a>
-      </li> */}
+      </li>
       <li className={styles.links__item}>
         <a className={linkClasses("/over-mij")} href="/over-mij">
           Over mij
         </a>
       </li>
-      {/* <li className={styles.links__item}>
+      <li className={styles.links__item}>
         <a className={linkClasses("/contact")} href="/contact">
           Contact
         </a>
-      </li> */}
+      </li>
     </ul>
   );
 }
