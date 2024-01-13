@@ -52,14 +52,27 @@ export default function ProjectsItem({
   const itemStyle = { height: `${height}px` };
   const itemClasses = `${styles.project} ${styles[`project--${width}`]}`;
 
+  let itemWidth = "";
+
+  switch (width) {
+    case "one-third":
+      itemWidth = "(max-width: 768px) 100vw, 33vw";
+      break;
+    case "two-third":
+      itemWidth = "(max-width: 768px) 100vw, 66vw";
+      break;
+    case "one-one":
+      itemWidth = "100vw";
+      break;
+  }
+
   return (
     <article className={itemClasses} style={itemStyle} ref={itemRef}>
       <Link className={styles.project__link} href={itemHref}>
         <Image
-          src={image.src}
-          alt={image.alt}
-          width={image.width}
-          height={image.height}
+          src={image}
+          alt={"Test"}
+          sizes={itemWidth}
           className={styles.project__image}
         />
 
