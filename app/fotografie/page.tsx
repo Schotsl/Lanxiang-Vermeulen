@@ -6,11 +6,11 @@ import Header from "@/components/Header";
 import Socials from "@/components/Socials";
 import Projects from "@/components/Projects";
 
-import firstImage from "@/public/images/design/breng-een-boek-tot-leven/header.png";
-import secondImage from "@/public/images/design/clubsafe-stappen-doen-we-samen/header.png";
-import thirdImage from "@/public/images/design/de-kracht-van-kruidenpower/header.png";
-import fourthImage from "@/public/images/design/stem-tegen-fast-fashion/header.png";
-import fifthImage from "@/public/images/design/het-passieproject/header.png";
+import firstImage from "@/public/images/fotografie/denim-day/header.jpg";
+import secondImage from "@/public/images/fotografie/girl-in-white/header.jpg";
+import thirdImage from "@/public/images/fotografie/feeling-the-brown-tones-red-and-rosy/header.jpg";
+import fourthImage from "@/public/images/fotografie/main-character/header.jpg";
+import fifthImage from "@/public/images/fotografie/girl-boss-at-home/header.jpg";
 
 export const metadata = {
   title: "Lxframes - Fotografie",
@@ -18,48 +18,48 @@ export const metadata = {
 
 const projects = [
   {
-    slug: "breng-een-boek-tot-leven",
-    width: "one-third",
+    slug: "denim-day",
+    width: "two-third",
     image: firstImage,
-    title: "Breng een boek tot leven!",
-    client: "Hogeschool van Amsterdam",
-    subtitle: "Expositie",
+    title: "Denim Day",
+    client: "Vrijwerk",
+    subtitle: "Fotoserie",
   },
   {
-    slug: "clubsafe-stappen-doen-we-samen",
-    width: "two-third",
+    slug: "girl-in-white",
+    width: "one-third",
     image: secondImage,
-    title: "Clubsafe: Stappen doen we samen!",
-    client: "Hogeschool van Amsterdam",
-    subtitle: "Design",
+    title: "Girl in white",
+    client: "Vrijwerk",
+    subtitle: "Fotoserie",
   },
   {
-    slug: "de-kracht-van-kruidenpower",
-    width: "two-third",
+    slug: "feeling-the-brown-tones-red-and-rosy",
+    width: "one-third",
     image: thirdImage,
-    title: "De kracht van kruidenpower",
-    client: "Nicole Trompetter",
-    subtitle: "Website",
+    title: "Feeling the brown tones",
+    client: "Malvie",
+    subtitle: "Fotoserie",
   },
   {
-    slug: "stem-tegen-fast-fashion",
+    slug: "main-character",
     width: "one-third",
     image: fourthImage,
-    title: "Stem tegen Fast Fashion",
-    client: "Mediacollege Amsterdam",
-    subtitle: "Design voor",
+    title: "Main character",
+    client: "Selin",
+    subtitle: "Fotoserie",
   },
   {
-    slug: "het-passieproject",
-    width: "one-one",
+    slug: "girl-boss-at-home",
+    width: "one-third",
     image: fifthImage,
-    title: "Het passieproject",
-    client: "Hogeschool van Amsterdam",
-    subtitle: "Design",
+    title: "Girlboss at home",
+    client: "L'attirance",
+    subtitle: "Fotoserie",
   },
 ] as Project[];
 
-export default function Design() {
+export default function Fotografie() {
   return (
     <body>
       <Header />
