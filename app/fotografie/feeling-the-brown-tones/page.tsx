@@ -20,7 +20,9 @@ export default function Detail() {
       <main>
         <ProjectHeader
           color="#9E6C47"
-          title='The "Feeling the brown tones" serie'
+          title="Feeling the brown tones"
+          prefix="The"
+          suffix="serie"
           image={{
             src: "/images/fotografie/feeling-the-brown-tones/header.jpg",
             alt: "Feeling the brown tones",

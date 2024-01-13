@@ -11,6 +11,8 @@ type ProjectHeaderProps = {
   color: string;
   title: string;
   image: ImageType;
+  prefix?: string;
+  suffix?: string;
   content?: ReactNode;
 };
 
@@ -20,6 +22,8 @@ export default function ProjectHeader({
   color,
   title,
   image,
+  prefix,
+  suffix,
   content,
 }: ProjectHeaderProps) {
   const dividerStyle = { backgroundColor: color };
@@ -36,7 +40,17 @@ export default function ProjectHeader({
         />
 
         <div className={styles.header__inner}>
-          <h1 className={styles.header__title}>{title}</h1>
+          <h1 className={styles.header__title}>
+            {prefix}
+            
+            {prefix || suffix ? (
+              <span className={styles.header__title__colored} style={{ color }}> &#8220;{title}&#8221; </span>
+            ) : (
+              <span className={styles.header__title__normal}>{title}</span>
+            )}
+
+            {suffix}
+          </h1>
 
           {content && <p className={styles.header__content}>{content}</p>}
 

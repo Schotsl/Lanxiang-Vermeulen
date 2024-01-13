@@ -20,7 +20,9 @@ export default function Detail() {
       <main>
         <ProjectHeader
           color="#9E6C47"
-          title='The "Denim day" serie'
+          title="Denim day"
+          prefix="The"
+          suffix="serie"
           image={{
             src: "/images/fotografie/denim-day/header.jpg",
             alt: "Denim day",
