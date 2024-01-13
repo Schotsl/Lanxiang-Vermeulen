@@ -47,7 +47,6 @@ export default function Detail() {
         />
 
         <ProjectRow
-          subtitle="Conceptontwikkeling"
           sizing="width"
           title="Ons bedrijf: Clubsafe"
           content={

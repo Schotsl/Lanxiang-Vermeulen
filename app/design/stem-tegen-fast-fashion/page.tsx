@@ -50,7 +50,6 @@ export default function Detail() {
 
         <ProjectRow
           sizing="width"
-          subtitle="Conceptontwikkeling"
           title="Welkom in de klerezooi"
           content={
             <>

@@ -49,7 +49,6 @@ export default function Detail() {
         />
 
         <ProjectRow
-          subtitle="Conceptontwikkeling"
           title="Verzets-tonen"
           sizing="width"
           content={

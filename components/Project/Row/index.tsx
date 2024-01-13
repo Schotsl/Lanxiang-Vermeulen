@@ -9,7 +9,6 @@ type ProjectGenericProps = {
   image: ImageType;
   sizing?: string;
   content: ReactNode;
-  subtitle?: string;
 };
 
 export default function ProjectGeneric({
@@ -17,7 +16,6 @@ export default function ProjectGeneric({
   image,
   sizing = "height",
   content,
-  subtitle,
 }: ProjectGenericProps) {
   const genericStyle = `${styles.generic} ${styles[`generic--${sizing}`]}`;
 
@@ -33,8 +31,6 @@ export default function ProjectGeneric({
 
       <div className={styles.generic__column}>
         <div className={styles.generic__titles}>
-          {subtitle && <h3 className={styles.generic__subtitle}>{subtitle}</h3>}
-
           <h2 className={styles.generic__title}>{title}</h2>
         </div>
 

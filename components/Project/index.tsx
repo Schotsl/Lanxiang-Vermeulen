@@ -33,7 +33,6 @@ export default function Project() {
     //   <ProjectGeneric
     //     title="De toekomst is baanbrekend"
     //     content="Mijn concept draagt de naam “De toekomst is baanbrekend” en is erg uniek! Met mijn ontwerp wil ik laten zien dat het museum boordevol nieuwe ideeën en inzichten zit. Het is een plek waar je jezelf kunt ontdekken en volop inspiratie kunt opdoen."
-    //     subtitle="Conceptontwikkeling"
     //     images={[
     //       {
     //         alt: "Conceptontwikkeling",
