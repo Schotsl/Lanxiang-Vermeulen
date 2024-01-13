@@ -77,6 +77,11 @@
   }
 
   @include md-breakpoint {
+    // TODO: Make sure every width option is implemented
+    &--one-one {
+      grid-column: span 12;
+    }
+
     &--one-third {
       grid-column: span 4;
     }
