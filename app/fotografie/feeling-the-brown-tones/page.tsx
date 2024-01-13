@@ -20,7 +20,7 @@ export default function Detail() {
       <main>
         <ProjectHeader
           color="#9E6C47"
-          title='The "Feeling the brown tones" series'
+          title='The "Feeling the brown tones" serie'
           image={{
             src: "/images/fotografie/feeling-the-brown-tones/header.jpg",
             alt: "Feeling the brown tones",
@@ -35,20 +35,20 @@ export default function Detail() {
           title="Het team"
           content={
             <>
-            <ul>
-              <li>
-                <b>Art director/styling/fotograaf:</b> Lanxiang Vermeulen
-              </li>
-              <li>
-                <b>Assistent fotograaf:</b> Laura Admiraal
-              </li>
-              <li>
-                <b>Model:</b> Aimée Algra
-              </li>
-              <li>
-                <b>Make-up:</b> Marjolein
-              </li>
-            </ul>
+              <ul>
+                <li>
+                  <b>Art director/styling/fotograaf:</b> Lanxiang Vermeulen
+                </li>
+                <li>
+                  <b>Assistent fotograaf:</b> Laura Admiraal
+                </li>
+                <li>
+                  <b>Model:</b> Aimée Algra
+                </li>
+                <li>
+                  <b>Make-up:</b> Marjolein
+                </li>
+              </ul>
             </>
           }
         />
@@ -59,7 +59,9 @@ export default function Detail() {
           title="Publicatie Malvie magazine"
           content={
             <>
-              Feeling the brown tones is een fotoserie waarin de bruine kleur de leidende rol speelt. De verschillende bruine tinten zijn overal te zien. Van de sproeten in haar gezicht tot de hele achtergrond.
+              Feeling the brown tones is een fotoserie waarin de bruine kleur de
+              leidende rol speelt. De verschillende bruine tinten zijn overal te
+              zien. Van de sproeten in haar gezicht tot de hele achtergrond.
             </>
           }
           divider={true}
@@ -87,7 +89,11 @@ export default function Detail() {
           title="Publicatie Fienfh Magazine"
           content={
             <>
-              Red & Rosy is een fotoserie waarin natuur en mensen samenkomen. Het toont de mooie en elegante kant van een vrouwelijk model in haar meest passende kleuren. Terwijl op de achtergrond krachtige en ruwe rotsen te zien zijn. Deze combinatie maakt het plaatje compleet.
+              Red & Rosy is een fotoserie waarin natuur en mensen samenkomen.
+              Het toont de mooie en elegante kant van een vrouwelijk model in
+              haar meest passende kleuren. Terwijl op de achtergrond krachtige
+              en ruwe rotsen te zien zijn. Deze combinatie maakt het plaatje
+              compleet.
             </>
           }
           divider={true}

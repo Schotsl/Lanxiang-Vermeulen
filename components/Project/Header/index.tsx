@@ -37,7 +37,7 @@ export default function ProjectHeader({
 
         <div className={styles.header__inner}>
           <h1 className={styles.header__title}>{title}</h1>
-          
+
           {content && <p className={styles.header__content}>{content}</p>}
 
           <div className={styles.header__divider} style={dividerStyle} />

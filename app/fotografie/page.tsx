@@ -10,7 +10,7 @@ import firstImage from "@/public/images/fotografie/denim-day/header.jpg";
 import secondImage from "@/public/images/fotografie/girl-in-white/header.jpg";
 import thirdImage from "@/public/images/fotografie/feeling-the-brown-tones/header.jpg";
 import fourthImage from "@/public/images/fotografie/main-character/header.jpg";
-import fifthImage from "@/public/images/fotografie/girl-boss-at-home/header.jpg";
+import fifthImage from "@/public/images/fotografie/girlboss-at-home/header.jpg";
 
 export const metadata = {
   title: "Lxframes - Fotografie",
@@ -50,7 +50,7 @@ const projects = [
     subtitle: "Fotoserie",
   },
   {
-    slug: "/fotografie/girl-boss-at-home",
+    slug: "/fotografie/girlboss-at-home",
     width: "one-third",
     image: fifthImage,
     title: "Girlboss at home",
