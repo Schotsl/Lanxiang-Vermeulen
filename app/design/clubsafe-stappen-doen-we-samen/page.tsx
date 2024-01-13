@@ -25,7 +25,7 @@ export default function Detail() {
           title="Clubsafe: Stappen doen we samen!"
           content="Ik kreeg de kans om in opdracht van de Hogeschool van Amsterdam content te schrijven en ontwerpen voor een fictief bedrijf. Het hele project werd in zeven weken afgerond, van 14 november tot 6 december 2022."
           image={{
-            src: "/images/design/content-ontwerpen-en-schrijven/header.png",
+            src: "/images/design/clubsafe-stappen-doen-we-samen/header.png",
             alt: "Content ontwerpen en schrijven",
             width: 5000,
             height: 3000,
@@ -66,7 +66,7 @@ export default function Detail() {
             </>
           }
           image={{
-            src: "/images/design/content-ontwerpen-en-schrijven/Landing.png",
+            src: "/images/design/clubsafe-stappen-doen-we-samen/Landing.png",
             alt: "Huisstijlsysteem",
             width: 1982,
             height: 1114,
@@ -82,7 +82,7 @@ export default function Detail() {
           images={[
             {
               alt: "Conceptontwikkeling",
-              src: "/images/design/content-ontwerpen-en-schrijven/XD.png",
+              src: "/images/design/clubsafe-stappen-doen-we-samen/XD.png",
               size: "one-one",
               width: 2880,
               height: 1800,

@@ -24,7 +24,7 @@ export default function Detail() {
           title="De kracht van Kruidenpower"
           content="Ik kreeg de kans om in opdracht van mevrouw Nicole ten Geusendam-Trompetter een website te ontwerpen voor haar onderneming: Kruidenpower."
           image={{
-            src: "/images/design/website-ontwerp/header.png",
+            src: "/images/design/de-kracht-van-kruidenpower/header.png",
             alt: "Website ontwerp",
             width: 4000,
             height: 6000,
@@ -56,7 +56,7 @@ export default function Detail() {
           images={[
             {
               alt: "Conceptontwikkeling",
-              src: "/images/design/website-ontwerp/XD.png",
+              src: "/images/design/de-kracht-van-kruidenpower/XD.png",
               size: "one-one",
               width: 2880,
               height: 1800,

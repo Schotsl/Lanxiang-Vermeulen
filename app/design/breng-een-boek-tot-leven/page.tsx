@@ -25,7 +25,7 @@ export default function Detail() {
           title="Breng een boek tot leven!"
           content="Ik kreeg de kans om in opdracht van Mediacollege Amsterdam een eigen vertaling van een boek naar keuze uit te werken. Het hele project werd in slechts vier weken afgerond, van 15 mei tot 7 juni 2020."
           image={{
-            src: "/images/design/boek-vertalen-op-je-eigen-manier/header.png",
+            src: "/images/design/breng-een-boek-tot-leven/header.png",
             alt: "Boek vertalen op je eigen manier",
             width: 5184,
             height: 3456,
@@ -73,7 +73,7 @@ export default function Detail() {
             </>
           }
           image={{
-            src: "/images/design/boek-vertalen-op-je-eigen-manier/1.png",
+            src: "/images/design/breng-een-boek-tot-leven/1.png",
             alt: "'T Hooge nest",
             width: 1125,
             height: 2000,
@@ -97,7 +97,7 @@ export default function Detail() {
           images={[
             {
               alt: "Conceptontwikkeling",
-              src: "/images/design/boek-vertalen-op-je-eigen-manier/2.png",
+              src: "/images/design/breng-een-boek-tot-leven/2.png",
               size: "one-one",
               width: 1348,
               height: 1800,
@@ -122,14 +122,14 @@ export default function Detail() {
           images={[
             {
               alt: "Conceptontwikkeling",
-              src: "/images/design/boek-vertalen-op-je-eigen-manier/3.png",
+              src: "/images/design/breng-een-boek-tot-leven/3.png",
               size: "one-two",
               width: 3024,
               height: 4032,
             },
             {
               alt: "Conceptontwikkeling",
-              src: "/images/design/boek-vertalen-op-je-eigen-manier/4.png",
+              src: "/images/design/breng-een-boek-tot-leven/4.png",
               size: "one-two",
               width: 1338,
               height: 1798,
