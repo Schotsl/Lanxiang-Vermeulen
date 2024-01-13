@@ -42,9 +42,12 @@ export default function ProjectHeader({
         <div className={styles.header__inner}>
           <h1 className={styles.header__title}>
             {prefix}
-            
+
             {prefix || suffix ? (
-              <span className={styles.header__title__colored} style={{ color }}> &#8220;{title}&#8221; </span>
+              <span className={styles.header__title__colored} style={{ color }}>
+                {" "}
+                &#8220;{title}&#8221;{" "}
+              </span>
             ) : (
               <span className={styles.header__title__normal}>{title}</span>
             )}
