@@ -36,7 +36,7 @@ export default function Detail() {
           color="#FFF5E8"
           border="#774F40"
           author="Hogeschool van Amsterdam"
-          content={
+          quote={
             <>
               <b>Van je passie je werk maken</b>, dat willen we misschien wel
               allemaal. Maar wat betekent het woord &apos;Passie&apos; eigenlijk

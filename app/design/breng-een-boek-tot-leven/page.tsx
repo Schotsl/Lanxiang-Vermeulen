@@ -37,7 +37,7 @@ export default function Detail() {
           border="#F1D9D8"
           title="Een visuele vertaling"
           author="Mediacollege Amsterdam"
-          content={
+          quote={
             <>
               Maak een <b>herontwerp</b> voor een boek naar keuze. Maak een
               visuele

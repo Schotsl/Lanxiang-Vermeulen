@@ -36,7 +36,7 @@ export default function Detail() {
           border="#18A660"
           title="De power van kruiden"
           author="Lanxiang Vermeulen"
-          content={
+          quote={
             <>
               Ik heb een <b>rustgevende website</b> ontworpen waarbij kruiden
               centraal staan. De website is ontworpen{" "}

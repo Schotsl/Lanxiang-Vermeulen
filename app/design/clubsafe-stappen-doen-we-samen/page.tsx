@@ -37,7 +37,7 @@ export default function Detail() {
           title="Start je eigen bedrijf!"
           border="#F1D9D8"
           author="Hogeschool van Amsterdam"
-          content={
+          quote={
             <>
               Als team van maximaal 3 studenten bedenken jullie samen een
               bedrijf. Het bedrijf moet minimaal twee dingen

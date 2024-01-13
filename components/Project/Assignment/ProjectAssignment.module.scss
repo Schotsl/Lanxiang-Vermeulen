@@ -9,20 +9,23 @@
   justify-content: center;
 
   &__content,
-  &__author {
+  &__author,
+  &__quote {
     width: 45%;
     text-align: center;
 
+    b {
+      font-weight: 500;
+    }
+  }
+
+  &__quote {
     &::before {
       content: open-quote;
     }
 
     &::after {
       content: close-quote;
-    }
-
-    b {
-      font-weight: 500;
     }
   }
 

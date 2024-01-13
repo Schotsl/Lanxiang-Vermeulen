@@ -36,7 +36,7 @@ export default function Detail() {
           border="#18A660"
           title="Branding voor jouw protest"
           author="Mediacollege Amsterdam"
-          content={
+          quote={
             <>
               Ontwerp een <b>huisstijl</b> voor een{" "}
               <b>beweging naar jouw keuze</b>. Deze beweging kan gerelateerd

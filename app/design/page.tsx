@@ -18,7 +18,7 @@ export const metadata = {
 
 const projects = [
   {
-    slug: "breng-een-boek-tot-leven",
+    slug: "/fotografie/breng-een-boek-tot-leven",
     width: "one-third",
     image: firstImage,
     title: "Breng een boek tot leven!",
@@ -26,7 +26,7 @@ const projects = [
     subtitle: "Expositie",
   },
   {
-    slug: "clubsafe-stappen-doen-we-samen",
+    slug: "/fotografie/clubsafe-stappen-doen-we-samen",
     width: "two-third",
     image: secondImage,
     title: "Clubsafe: Stappen doen we samen!",
@@ -34,7 +34,7 @@ const projects = [
     subtitle: "Design",
   },
   {
-    slug: "de-kracht-van-kruidenpower",
+    slug: "/fotografie/de-kracht-van-kruidenpower",
     width: "two-third",
     image: thirdImage,
     title: "De kracht van kruidenpower",
@@ -42,7 +42,7 @@ const projects = [
     subtitle: "Website",
   },
   {
-    slug: "stem-tegen-fast-fashion",
+    slug: "/fotografie/stem-tegen-fast-fashion",
     width: "one-third",
     image: fourthImage,
     title: "Stem tegen Fast Fashion",
@@ -50,7 +50,7 @@ const projects = [
     subtitle: "Design voor",
   },
   {
-    slug: "het-passieproject",
+    slug: "/fotografie/het-passieproject",
     width: "one-one",
     image: fifthImage,
     title: "Het passieproject",

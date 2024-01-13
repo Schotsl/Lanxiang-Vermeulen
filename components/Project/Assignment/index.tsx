@@ -3,17 +3,20 @@ import styles from "./ProjectAssignment.module.scss";
 import { CSSProperties, ReactNode } from "react";
 
 type ProjectAssignmentProps = {
+  title: ReactNode;
   color?: string;
   border?: string;
-  title: ReactNode;
-  author: ReactNode;
-  content: ReactNode;
+
+  quote?: ReactNode;
+  author?: ReactNode;
+  content?: ReactNode;
 };
 
 export default function ProjectAssignment({
+  title,
   color,
   border,
-  title,
+  quote,
   author,
   content,
 }: ProjectAssignmentProps) {
@@ -29,9 +32,11 @@ export default function ProjectAssignment({
 
       <h2 className={styles.assignment__title}>{title}</h2>
 
-      <p className={styles.assignment__content}>{content}</p>
+      {quote && <p className={styles.assignment__quote}>{quote}</p>}
 
-      <p className={styles.assignment__author}>{author}</p>
+      {content && <p className={styles.assignment__content}>{content}</p>}
+
+      {author && <p className={styles.assignment__author}>{author}</p>}
     </section>
   );
 }
