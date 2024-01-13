@@ -8,6 +8,8 @@ import ProjectHeader from "@/components/Project/Header";
 import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
+import imageHeader from "@/public/images/fotografie/feeling-the-brown-tones/header.jpg";
+
 export const metadata = {
   title: "Lxframes - Feeling the brown tones",
 };
@@ -20,15 +22,10 @@ export default function Detail() {
       <main>
         <ProjectHeader
           color="#9E6C47"
+          image={imageHeader}
           title="Feeling the brown tones"
           prefix="The"
           suffix="serie"
-          image={{
-            src: "/images/fotografie/feeling-the-brown-tones/header.jpg",
-            alt: "Feeling the brown tones",
-            width: 5184,
-            height: 3456,
-          }}
         />
 
         <ProjectAssignment

@@ -10,6 +10,8 @@ import ProjectHeader from "@/components/Project/Header";
 import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
+import imageHeader from "@/public/images/design/breng-een-boek-tot-leven/header.png";
+
 export const metadata = {
   title: "Lxframes - Breng een boek tot leven!",
 };
@@ -22,14 +24,9 @@ export default function Detail() {
       <main>
         <ProjectHeader
           color="#F1D9D8"
+          image={imageHeader}
           title="Breng een boek tot leven!"
           content="Ik kreeg de kans om in opdracht van Mediacollege Amsterdam een eigen vertaling van een boek naar keuze uit te werken. Het hele project werd in slechts vier weken afgerond, van 15 mei tot 7 juni 2020."
-          image={{
-            src: "/images/design/breng-een-boek-tot-leven/header.png",
-            alt: "Boek vertalen op je eigen manier",
-            width: 5184,
-            height: 3456,
-          }}
         />
 
         <ProjectAssignment

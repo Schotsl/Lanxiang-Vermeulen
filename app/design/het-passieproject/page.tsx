@@ -9,6 +9,8 @@ import ProjectHeader from "@/components/Project/Header";
 import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
+import imageHeader from "@/public/images/design/het-passieproject/header.png";
+
 export const metadata = {
   title: "Lxframes - Het passieproject",
 };
@@ -21,14 +23,9 @@ export default function Detail() {
       <main>
         <ProjectHeader
           color="#774F40"
+          image={imageHeader}
           title="Het passieproject"
           content="Ik kreeg de kans om in opdracht van de Hogeschool van Amsterdam een passie tot leven te brengen. Het hele project werd in slechts drie weken afgerond, van 31 maart tot 19 april 2022."
-          image={{
-            src: "/images/design/het-passieproject/header.png",
-            alt: "Het passieproject",
-            width: 4162,
-            height: 2770,
-          }}
         />
 
         <ProjectAssignment

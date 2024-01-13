@@ -10,6 +10,8 @@ import ProjectHeader from "@/components/Project/Header";
 import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
+import imageHeader from "@/public/images/design/clubsafe-stappen-doen-we-samen/header.png";
+
 export const metadata = {
   title: "Lxframes - Clubsafe: Stappen doen we samen!",
 };
@@ -22,14 +24,9 @@ export default function Detail() {
       <main>
         <ProjectHeader
           color="#F1D9D8"
+          image={imageHeader}
           title="Clubsafe: Stappen doen we samen!"
           content="Ik kreeg de kans om in opdracht van de Hogeschool van Amsterdam content te schrijven en ontwerpen voor een fictief bedrijf. Het hele project werd in zeven weken afgerond, van 14 november tot 6 december 2022."
-          image={{
-            src: "/images/design/clubsafe-stappen-doen-we-samen/header.png",
-            alt: "Content ontwerpen en schrijven",
-            width: 5000,
-            height: 3000,
-          }}
         />
 
         <ProjectAssignment

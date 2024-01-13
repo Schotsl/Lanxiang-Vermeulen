@@ -8,6 +8,8 @@ import ProjectHeader from "@/components/Project/Header";
 import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
+import imageHeader from "@/public/images/fotografie/girlboss-at-home/header.jpg";
+
 export const metadata = {
   title: "Lxframes - Girlboss at home",
 };
@@ -20,15 +22,10 @@ export default function Detail() {
       <main>
         <ProjectHeader
           color="#9E6C47"
+          image={imageHeader}
           title="Girlboss at home"
           prefix="The"
           suffix="serie"
-          image={{
-            src: "/images/fotografie/girlboss-at-home/header.jpg",
-            alt: "Girlboss at home",
-            width: 5184,
-            height: 3456,
-          }}
         />
 
         <ProjectAssignment

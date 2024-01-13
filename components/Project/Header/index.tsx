@@ -4,13 +4,13 @@ import Button from "@/components/Button";
 import styles from "./ProjectHeader.module.scss";
 
 import { ReactNode } from "react";
-import { ImageType } from "@/types";
 import { FaArrowLeft } from "react-icons/fa";
+import { StaticImageData } from "next/image";
 
 type ProjectHeaderProps = {
   color: string;
   title: string;
-  image: ImageType;
+  image: StaticImageData;
   prefix?: string;
   suffix?: string;
   content?: ReactNode;
@@ -59,12 +59,9 @@ export default function ProjectHeader({
       </div>
 
       <Image
-        src={image.src}
-        alt={image.alt}
-        width={image.width}
-        height={image.height}
-        blurDataURL="LDEB~w[W00br%P#,Riad00WC?^M|"
-        placeholder="blur"
+        alt=""
+        src={image}
+        sizes={"50vw"}
         className={styles.header__image}
       />
     </section>

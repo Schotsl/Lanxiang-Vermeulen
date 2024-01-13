@@ -9,6 +9,8 @@ import ProjectHeader from "@/components/Project/Header";
 import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
+import imageHeader from "@/public/images/design/de-kracht-van-kruidenpower/header.png";
+
 export const metadata = {
   title: "Lxframes - De kracht van Kruidenpower",
 };
@@ -21,14 +23,9 @@ export default function Detail() {
       <main>
         <ProjectHeader
           color="#18A660"
+          image={imageHeader}
           title="De kracht van Kruidenpower"
           content="Ik kreeg de kans om in opdracht van mevrouw Nicole ten Geusendam-Trompetter een website te ontwerpen voor haar onderneming: Kruidenpower."
-          image={{
-            src: "/images/design/de-kracht-van-kruidenpower/header.png",
-            alt: "Website ontwerp",
-            width: 4000,
-            height: 6000,
-          }}
         />
 
         <ProjectAssignment

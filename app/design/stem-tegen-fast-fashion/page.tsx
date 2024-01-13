@@ -9,6 +9,8 @@ import ProjectHeader from "@/components/Project/Header";
 import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
+import imageHeader from "@/public/images/design/stem-tegen-fast-fashion/header.png";
+
 export const metadata = {
   title: "Lxframes - Stem tegen Fast Fashion",
 };
@@ -21,14 +23,9 @@ export default function Detail() {
       <main>
         <ProjectHeader
           color="#18A660"
+          image={imageHeader}
           title="Stem tegen Fast Fashion"
           content="Ik kreeg de kans om in opdracht van Mediacollege Amsterdam een huisstijl te ontwerpen voor een protestbeweging naar keuze. Het hele project werd in slechts vier weken afgerond, van 15 September tot 31 Oktober 2020."
-          image={{
-            src: "/images/design/stem-tegen-fast-fashion/header.png",
-            alt: "Stem tegen Fast Fashion",
-            width: 1717,
-            height: 1292,
-          }}
         />
 
         <ProjectAssignment
