@@ -18,7 +18,6 @@ export default function Home() {
           src={imageLogo}
           alt="Lxframes logo"
           className={style.home__logo}
-          placeholder="blur"
         />
         <h1 className={style.home__title}>Lxframes</h1>
       </header>

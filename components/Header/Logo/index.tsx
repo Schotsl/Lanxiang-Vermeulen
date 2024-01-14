@@ -12,7 +12,6 @@ export default function HeaderLogo() {
           alt="Lxframes logo"
           src={imageLogo}
           className={styles.logo__image}
-          placeholder="blur"
         />
       </a>
     </div>

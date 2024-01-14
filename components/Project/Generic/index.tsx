@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image";
 
 import styles from "./ProjectGeneric.module.scss";
 
-import { ImageType, WidthType } from "@/types";
+import { WidthType } from "@/types";
 import { CSSProperties, ReactNode } from "react";
 
 type ProjectGenericImage = {
