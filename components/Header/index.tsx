@@ -1,5 +1,3 @@
-"use client";
-
 import styles from "./Header.module.scss";
 
 import HeaderLogo from "@/components/Header/Logo";

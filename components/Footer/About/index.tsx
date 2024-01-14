@@ -1,5 +1,3 @@
-"use client";
-
 import styles from "./FooterAbout.module.scss";
 
 import { ReactNode } from "react";

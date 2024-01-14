@@ -1,5 +1,3 @@
-"use client";
-
 import styles from "./Project.module.scss";
 
 import ProjectsItem from "@/components/Projects/Item";

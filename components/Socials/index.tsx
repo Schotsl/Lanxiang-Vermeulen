@@ -1,5 +1,3 @@
-"use client";
-
 import styles from "./Socials.module.scss";
 
 import { FaInstagram, FaLinkedin, FaTiktok, FaFacebook } from "react-icons/fa";

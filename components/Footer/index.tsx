@@ -1,5 +1,3 @@
-"use client";
-
 import styles from "./Footer.module.scss";
 
 import FooterList from "@/components/Footer/List";

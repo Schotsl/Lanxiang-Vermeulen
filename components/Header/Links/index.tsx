@@ -1,14 +1,13 @@
-"use client";
-
 import styles from "./HeaderLinks.module.scss";
 
-import { usePathname } from "next/navigation";
+import { headers } from "next/headers";
 
 export default function HeaderLinks() {
-  const pathname = usePathname();
+  const heads = headers()
 
   const linkClasses = (path: string) => {
-    const itemActive = pathname.startsWith(path);
+    const itemPathname = heads.get('next-url')?.trim();
+    const itemActive = itemPathname == path;
     const itemClasses = itemActive
       ? `${styles.links__link} ${styles["links__link--active"]}`
       : `${styles.links__link}`;
