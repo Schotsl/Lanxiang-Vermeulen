@@ -4,12 +4,16 @@ import FooterList from "@/components/Footer/List";
 import FooterAbout from "@/components/Footer/About";
 
 export default function Footer() {
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+
   const aboutContent = {
     text: "Ontdek de kracht van vormgeving en fotografie met LxFrames. Neem vandaag nog contact met ons op om uw project te bespreken en samen iets unieks te creëren.",
     title: "Lxframes",
     rights: (
       <>
-        <a href="http://www.freepik.com">Designed by Vectorium / Freepik</a>
+        &copy; {currentYear} ontwikkeld door{" "}
+        <a href="https://sjorsvanholst.nl">Sjors van Holst</a>
       </>
     ),
   };
