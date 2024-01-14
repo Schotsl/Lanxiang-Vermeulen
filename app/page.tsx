@@ -4,7 +4,6 @@ import style from "./page.module.scss";
 
 export const metadata = {
   title: "Lxframes",
-  description: "Lxframes",
 };
 
 export default function Home() {

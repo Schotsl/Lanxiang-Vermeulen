@@ -6,10 +6,6 @@ import AboutHeader from "@/components/About/Header";
 import AboutImages from "@/components/About/Images";
 import AboutDescription from "@/components/About/Description";
 
-import styles from "./page.module.scss";
-
-import Image from "next/image";
-
 export const metadata = {
   title: "Lxframes - Over mij",
 };
