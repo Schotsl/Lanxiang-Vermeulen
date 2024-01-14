@@ -2,9 +2,7 @@
 @import "@/styles/mixins.scss";
 
 .socials {
-  padding: 6rem;
   display: flex;
-  align-items: center;
   flex-direction: column;
 
   &__title {
@@ -18,7 +16,7 @@
 
   &__list {
     gap: 1rem;
-    padding: 1rem;
+    padding: 1rem 0;
     flex-direction: row;
 
     .socials__item {

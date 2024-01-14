@@ -8,6 +8,7 @@ import { FaArrowLeft } from "react-icons/fa";
 import { StaticImageData } from "next/image";
 
 type ProjectHeaderProps = {
+  back?: boolean;
   color: string;
   title: string;
   image: StaticImageData;
@@ -19,6 +20,7 @@ type ProjectHeaderProps = {
 // TODO: Rename this to intro
 
 export default function ProjectHeader({
+  back = true,
   color,
   title,
   image,
@@ -31,13 +33,15 @@ export default function ProjectHeader({
   return (
     <section className={styles.header}>
       <div className={styles.header__sidebar}>
-        <Button
-          icon={<FaArrowLeft />}
-          href="/design"
-          size="small"
-          color="white"
-          title="Ga terug"
-        />
+        {back && (
+          <Button
+            icon={<FaArrowLeft />}
+            href="/design"
+            size="small"
+            color="white"
+            title="Ga terug"
+          />
+        )}
 
         <div className={styles.header__inner}>
           <h1 className={styles.header__title}>

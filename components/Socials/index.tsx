@@ -4,13 +4,25 @@ import styles from "./Socials.module.scss";
 
 import { FaInstagram, FaLinkedin, FaTiktok, FaFacebook } from "react-icons/fa";
 
-export default function Socials() {
+type SocialsProps = {
+  minimized?: boolean;
+};
+
+export default function Socials({ minimized = false }: SocialsProps) {
   return (
-    <section className={styles.socials}>
-      <h3 className={styles.socials__title}>
-        <span className={styles.socials__subtitle}>Socials</span> |
-        @lanxiangvermeulen
-      </h3>
+    <section
+      className={styles.socials}
+      style={{
+        padding: minimized ? "0rem" : "6rem",
+        alignItems: minimized ? "flex-start" : "center",
+      }}
+    >
+      {!minimized && (
+        <h3 className={styles.socials__title}>
+          <span className={styles.socials__subtitle}>Socials</span> |
+          @lanxiangvermeulen
+        </h3>
+      )}
 
       <ul className={styles.socials__list}>
         <li className={styles.socials__item}>
