@@ -31,7 +31,7 @@ export default function ProjectHeader({
   prefix,
   suffix,
   content,
-  position = "center"
+  position = "center",
 }: ProjectHeaderProps) {
   const fullPathname = usePathname();
   const startPathname = `/${fullPathname.split("/")[1]}`;
@@ -71,7 +71,7 @@ export default function ProjectHeader({
             className={styles.header__divider}
             style={{
               backgroundColor: color,
-              marginTop: content ? "3rem" : "0.5rem"
+              marginTop: content ? "3rem" : "0.5rem",
             }}
           />
         </div>
