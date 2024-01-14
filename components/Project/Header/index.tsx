@@ -1,9 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import Button from "@/components/Button";
 
 import styles from "./ProjectHeader.module.scss";
 
 import { ReactNode } from "react";
+import { usePathname } from "next/navigation";
 import { FaArrowLeft } from "react-icons/fa";
 import { StaticImageData } from "next/image";
 
@@ -28,7 +31,8 @@ export default function ProjectHeader({
   suffix,
   content,
 }: ProjectHeaderProps) {
-  const dividerStyle = { backgroundColor: color };
+  const fullPathname = usePathname();
+  const startPathname = `/${fullPathname.split("/")[1]}`
 
   return (
     <section className={styles.header}>
@@ -36,7 +40,7 @@ export default function ProjectHeader({
         {back && (
           <Button
             icon={<FaArrowLeft />}
-            href="/design"
+            href={startPathname}
             size="small"
             color="white"
             title="Ga terug"
@@ -61,7 +65,7 @@ export default function ProjectHeader({
 
           {content && <p className={styles.header__content}>{content}</p>}
 
-          <div className={styles.header__divider} style={dividerStyle} />
+          <div className={styles.header__divider} style={{ backgroundColor: color }} />
         </div>
       </div>
 
