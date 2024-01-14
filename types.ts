@@ -7,13 +7,6 @@ export type Link = {
   label: string;
 };
 
-export type ImageType = {
-  src: string;
-  alt: string;
-  width: number;
-  height: number;
-};
-
 export type Project = {
   slug: string;
   width: WidthType;
