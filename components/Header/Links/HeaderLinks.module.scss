@@ -15,10 +15,11 @@
         left: -5%;
         width: 110%;
         height: 0.5rem;
-        bottom: 0.125rem;
+        bottom: 0;
         content: "";
         z-index: -1;
         position: absolute;
+        border-radius: 0.5rem;
         background-color: #f1d9d8;
       }
     }
