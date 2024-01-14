@@ -2,6 +2,8 @@
 @import "@/styles/mixins.scss";
 
 .home {
+  overflow-y: hidden;
+  
   &__header {
     width: 100%;
     padding: 3rem 0 2rem;
@@ -30,72 +32,76 @@
     }
   }
 
-  &__section {
-    gap: 2rem;
-    display: flex;
-    padding: 2rem;
-    flex-direction: column;
-    justify-content: center;
+  &__main {
+    padding: 0;
 
-    @include sm-breakpoint {
-      gap: 4rem;
-      padding: 4rem;
-    }
+    &__section {
+      gap: 2rem;
+      display: flex;
+      padding: 2rem;
+      flex-direction: column;
+      justify-content: center;
 
-    @include md-breakpoint {
-      gap: 3rem;
-      padding: 1rem 6rem 0px;
-      flex-direction: row;
-    }
+      @include sm-breakpoint {
+        gap: 4rem;
+        padding: 4rem;
+      }
 
-    .home__link {
-      @include clickable-image;
+      @include md-breakpoint {
+        gap: 3rem;
+        padding: 1rem 6rem 0px;
+        flex-direction: row;
+      }
 
-      flex: 1;
-      display: block;
+      .home__link {
+        @include clickable-image;
 
-      .home__figure {
-        position: relative;
+        flex: 1;
+        display: block;
 
-        .home__image {
-          width: 100%;
-          height: auto;
-          display: block;
-          object-fit: cover;
+        .home__figure {
+          position: relative;
 
-          @include md-breakpoint {
-            height: calc(100vh - 24rem);
-          }
-        }
-
-        .home__caption {
-          left: 50%;
-          color: #fff;
-          bottom: 2rem;
-          position: absolute;
-          transform: translateX(-50%);
-          font-size: 1em;
-          font-weight: 300;
-          text-align: center;
-
-          .home__span {
+          .home__image {
+            width: 100%;
+            height: auto;
             display: block;
-            font-size: 2em;
-            font-weight: 500;
-            line-height: 1;
-            text-transform: uppercase;
+            object-fit: cover;
+
+            @include md-breakpoint {
+              height: calc(100vh - 24rem);
+            }
           }
 
-          @include sm-breakpoint {
-            bottom: 3rem;
-            font-size: 1.5rem;
-          }
+          .home__caption {
+            left: 50%;
+            color: #fff;
+            bottom: 2rem;
+            position: absolute;
+            transform: translateX(-50%);
+            font-size: 1em;
+            font-weight: 300;
+            text-align: center;
 
-          @include md-breakpoint {
-            bottom: 3rem;
-            font-size: 1.25rem;
             .home__span {
-              font-size: 2.5em;
+              display: block;
+              font-size: 2em;
+              font-weight: 500;
+              line-height: 1;
+              text-transform: uppercase;
+            }
+
+            @include sm-breakpoint {
+              bottom: 3rem;
+              font-size: 1.5rem;
+            }
+
+            @include md-breakpoint {
+              bottom: 3rem;
+              font-size: 1.25rem;
+              .home__span {
+                font-size: 2.5em;
+              }
             }
           }
         }

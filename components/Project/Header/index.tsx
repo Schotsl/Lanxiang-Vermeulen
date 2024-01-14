@@ -32,7 +32,7 @@ export default function ProjectHeader({
   content,
 }: ProjectHeaderProps) {
   const fullPathname = usePathname();
-  const startPathname = `/${fullPathname.split("/")[1]}`
+  const startPathname = `/${fullPathname.split("/")[1]}`;
 
   return (
     <section className={styles.header}>
@@ -65,7 +65,10 @@ export default function ProjectHeader({
 
           {content && <p className={styles.header__content}>{content}</p>}
 
-          <div className={styles.header__divider} style={{ backgroundColor: color }} />
+          <div
+            className={styles.header__divider}
+            style={{ backgroundColor: color }}
+          />
         </div>
       </div>
 
