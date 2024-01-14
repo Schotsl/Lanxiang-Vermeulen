@@ -13,11 +13,12 @@ import { StaticImageData } from "next/image";
 type ProjectHeaderProps = {
   back?: boolean;
   color: string;
-  title: string;
+  title: ReactNode;
   image: StaticImageData;
   prefix?: string;
   suffix?: string;
   content?: ReactNode;
+  position?: "top" | "center" | "bottom";
 };
 
 // TODO: Rename this to intro
@@ -30,6 +31,7 @@ export default function ProjectHeader({
   prefix,
   suffix,
   content,
+  position = "center"
 }: ProjectHeaderProps) {
   const fullPathname = usePathname();
   const startPathname = `/${fullPathname.split("/")[1]}`;
@@ -67,7 +69,10 @@ export default function ProjectHeader({
 
           <div
             className={styles.header__divider}
-            style={{ backgroundColor: color }}
+            style={{
+              backgroundColor: color,
+              marginTop: content ? "3rem" : "0.5rem"
+            }}
           />
         </div>
       </div>
@@ -78,6 +83,7 @@ export default function ProjectHeader({
         sizes={"50vw"}
         className={styles.header__image}
         placeholder="blur"
+        style={{ objectPosition: position }}
       />
     </section>
   );

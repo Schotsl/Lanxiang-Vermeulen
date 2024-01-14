@@ -28,6 +28,7 @@ export default function Detail() {
           title="Girlboss at home"
           prefix="The"
           suffix="serie"
+          position="top"
         />
 
         <ProjectAssignment

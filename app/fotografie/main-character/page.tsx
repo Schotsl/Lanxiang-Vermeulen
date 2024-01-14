@@ -29,6 +29,7 @@ export default function Detail() {
           title="main character"
           prefix="The"
           suffix="serie"
+          position="top"
         />
 
         <ProjectAssignment

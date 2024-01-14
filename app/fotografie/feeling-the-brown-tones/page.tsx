@@ -30,6 +30,7 @@ export default function Detail() {
           title="Feeling the brown tones"
           prefix="The"
           suffix="serie"
+          position="top"
         />
 
         <ProjectAssignment

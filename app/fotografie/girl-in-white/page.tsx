@@ -29,6 +29,7 @@ export default function Detail() {
           title="Girl in white"
           prefix="The"
           suffix="serie"
+          position="top"
         />
 
         <ProjectAssignment

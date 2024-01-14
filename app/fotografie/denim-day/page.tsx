@@ -26,7 +26,7 @@ export default function Detail() {
         <ProjectHeader
           color="#9E6C47"
           image={imageHeader}
-          title="Denim day"
+          title={<>Denim day</>}
           prefix="The"
           suffix="serie"
         />
