@@ -1,15 +1,17 @@
-import Image from "next/image";
-import Button from "@/components/Button";
+import Image, { StaticImageData } from "next/image";
+
 import styles from "./ProjectGeneric.module.scss";
 
 import { ImageType, WidthType } from "@/types";
 import { CSSProperties, ReactNode } from "react";
 
-type ProjectGenericImage = ImageType & {
+type ProjectGenericImage = {
   size: WidthType;
+  image: StaticImageData;
 };
 
 type ProjectGenericProps = {
+  id?: string;
   color: string;
   title: string;
   border: string;
@@ -22,6 +24,7 @@ type ProjectGenericProps = {
 };
 
 export default function ProjectGeneric({
+  id,
   color,
   title,
   border,
@@ -40,7 +43,7 @@ export default function ProjectGeneric({
   const genericClasses = `${styles.generic} ${styles[`generic--${sizing}`]}`;
 
   return (
-    <section className={genericClasses} style={genericStyle}>
+    <section className={genericClasses} style={genericStyle} id={id}>
       {subtitle && <h3 className={styles.generic__subtitle}>{subtitle}</h3>}
 
       <h2 className={styles.generic__title}>{title}</h2>
@@ -56,18 +59,13 @@ export default function ProjectGeneric({
       {(images && (
         <div className={styles.generic__container}>
           <ul className={styles.generic__images}>
-            {images.map((image) => {
+            {images.map((image, index) => {
               const imageWidth = `generic__image--${image.size}`;
               const imageClasses = `${styles.generic__image} ${styles[imageWidth]}`;
 
               return (
-                <li className={imageClasses} key={image.src}>
-                  <Image
-                    src={image.src}
-                    alt={image.alt}
-                    width={image.width}
-                    height={image.height}
-                  />
+                <li className={imageClasses} key={index}>
+                  <Image alt="" src={image.image} placeholder="blur" />
                 </li>
               );
             })}

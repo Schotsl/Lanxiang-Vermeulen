@@ -3,6 +3,8 @@ import Button from "@/components/Button";
 
 import styles from "./AboutHeader.module.scss";
 
+import imageLanxiang from "@/public/images/over-mij/header.png";
+
 // TODO: This is a duplicate to ProjectHeader
 
 export default function AboutHeader() {
@@ -25,13 +27,10 @@ export default function AboutHeader() {
       </div>
 
       <Image
-        src="/images/over-mij/Lanxiang Vermeulen.png"
+        src="/images/over-mij/header.png"
         alt="Lanxiang Vermeulen"
-        width={1023}
-        height={813}
-        blurDataURL="L7C6lPx.0xE%00Rj$+V{01%g}Z$K"
-        placeholder="blur"
         className={styles.header__image}
+        placeholder="blur"
       />
     </section>
   );

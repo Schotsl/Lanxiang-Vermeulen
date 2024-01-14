@@ -9,6 +9,8 @@ import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
 import imageHeader from "@/public/images/fotografie/girlboss-at-home/header.jpg";
+import imageFirst from "@/public/images/fotografie/girlboss-at-home/1.jpg";
+import imageSecond from "@/public/images/fotografie/girlboss-at-home/2.jpg";
 
 export const metadata = {
   title: "Lxframes - Girlboss at home",
@@ -63,18 +65,12 @@ export default function Detail() {
           divider={true}
           images={[
             {
-              alt: "",
-              src: "/images/fotografie/girlboss-at-home/1.jpg",
               size: "one-one",
-              width: 3024,
-              height: 4032,
+              image: imageFirst,
             },
             {
-              alt: "",
-              src: "/images/fotografie/girlboss-at-home/2.jpg",
               size: "one-one",
-              width: 3024,
-              height: 4032,
+              image: imageSecond,
             },
           ]}
         />

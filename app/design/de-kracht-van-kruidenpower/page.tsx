@@ -10,6 +10,7 @@ import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
 import imageHeader from "@/public/images/design/de-kracht-van-kruidenpower/header.png";
+import imageFirst from "@/public/images/design/de-kracht-van-kruidenpower/XD.png";
 
 export const metadata = {
   title: "Lxframes - De kracht van Kruidenpower",
@@ -52,11 +53,8 @@ export default function Detail() {
           content="Hieronder vind je de uitwerking van de websites, inclusief knoppen die direct naar haar portfolio en de Kruidenpower website leiden. Dit project is gerealiseerd in samenwerking met Sjors van Holst. Ik was verantwoordelijk voor de vormgeving, terwijl hij de website heeft geprogrammeerd."
           images={[
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/de-kracht-van-kruidenpower/XD.png",
               size: "one-one",
-              width: 2880,
-              height: 1800,
+              image: imageFirst,
             },
           ]}
           buttons={[

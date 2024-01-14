@@ -12,6 +12,11 @@ import ProjectAssignment from "@/components/Project/Assignment";
 
 import imageHeader from "@/public/images/design/breng-een-boek-tot-leven/header.png";
 
+import imageFirst from "@/public/images/design/breng-een-boek-tot-leven/1.png";
+import imageSecond from "@/public/images/design/breng-een-boek-tot-leven/2.png";
+import imageThird from "@/public/images/design/breng-een-boek-tot-leven/3.png";
+import imageFourth from "@/public/images/design/breng-een-boek-tot-leven/4.png";
+
 export const metadata = {
   title: "Lxframes - Breng een boek tot leven!",
 };
@@ -47,6 +52,7 @@ export default function Detail() {
 
         <ProjectRow
           title="Verzets-tonen"
+          image={imageFirst}
           sizing="width"
           content={
             <>
@@ -68,12 +74,6 @@ export default function Detail() {
               </p>
             </>
           }
-          image={{
-            src: "/images/design/breng-een-boek-tot-leven/1.png",
-            alt: "'T Hooge nest",
-            width: 1125,
-            height: 2000,
-          }}
         />
 
         <ProjectGeneric
@@ -92,11 +92,8 @@ export default function Detail() {
           ]}
           images={[
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/breng-een-boek-tot-leven/2.png",
               size: "one-one",
-              width: 1348,
-              height: 1800,
+              image: imageSecond,
             },
           ]}
         />
@@ -117,18 +114,12 @@ export default function Detail() {
           divider={true}
           images={[
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/breng-een-boek-tot-leven/3.png",
               size: "one-two",
-              width: 3024,
-              height: 4032,
+              image: imageThird,
             },
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/breng-een-boek-tot-leven/4.png",
               size: "one-two",
-              width: 1338,
-              height: 1798,
+              image: imageFourth,
             },
           ]}
         />

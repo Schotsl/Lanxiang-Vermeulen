@@ -9,6 +9,9 @@ import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
 import imageHeader from "@/public/images/fotografie/denim-day/header.jpg";
+import imageFirst from "@/public/images/fotografie/denim-day/1.jpg";
+import imageSecond from "@/public/images/fotografie/denim-day/2.jpg";
+import imageThird from "@/public/images/fotografie/denim-day/3.jpg";
 
 export const metadata = {
   title: "Lxframes - Denim day",
@@ -62,25 +65,16 @@ export default function Detail() {
           divider={true}
           images={[
             {
-              alt: "",
-              src: "/images/fotografie/denim-day/1.jpg",
               size: "one-two",
-              width: 3024,
-              height: 4032,
+              image: imageFirst,
             },
             {
-              alt: "",
-              src: "/images/fotografie/denim-day/2.jpg",
               size: "one-two",
-              width: 3024,
-              height: 4032,
+              image: imageSecond,
             },
             {
-              alt: "",
-              src: "/images/fotografie/denim-day/3.jpg",
               size: "one-one",
-              width: 3024,
-              height: 4032,
+              image: imageThird,
             },
           ]}
         />

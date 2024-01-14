@@ -77,6 +77,7 @@ export default function ProjectHeader({
         src={image}
         sizes={"50vw"}
         className={styles.header__image}
+        placeholder="blur"
       />
     </section>
   );

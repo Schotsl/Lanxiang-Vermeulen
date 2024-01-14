@@ -2,6 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 import style from "./page.module.scss";
 
+import imageLogo from "@/public/images/logo.png";
+import imageDesign from "@/public/images/index/design.png";
+import imageFotografie from "@/public/images/index/fotografie.png";
+
 export const metadata = {
   title: "Lxframes",
 };
@@ -11,11 +15,10 @@ export default function Home() {
     <body className={style.home}>
       <header className={style.home__header}>
         <Image
-          src="/images/logo.png"
+          src={imageLogo}
           alt="Lxframes logo"
-          width={408}
-          height={162}
           className={style.home__logo}
+          placeholder="blur"
         />
         <h1 className={style.home__title}>Lxframes</h1>
       </header>
@@ -24,11 +27,10 @@ export default function Home() {
           <Link className={style.home__link} href="/fotografie">
             <figure className={style.home__figure}>
               <Image
-                src="/images/index/fotografie (to-be-replaced).png"
-                alt="TO BE ADDED"
-                width={1015}
-                height={784}
+                src={imageFotografie}
+                alt="Fotografie"
                 className={style.home__image}
+                placeholder="blur"
               />
               <figcaption className={style.home__caption}>
                 Mijn werk
@@ -39,11 +41,10 @@ export default function Home() {
           <Link className={style.home__link} href="/design">
             <figure className={style.home__figure}>
               <Image
-                src="/images/index/design (to-be-replaced).png"
-                alt="TO BE ADDED"
-                width={1015}
-                height={784}
+                src={imageDesign}
+                alt="Design"
                 className={style.home__image}
+                placeholder="blur"
               />
 
               <figcaption className={style.home__caption}>

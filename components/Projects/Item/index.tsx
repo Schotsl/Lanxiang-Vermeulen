@@ -69,9 +69,10 @@ export default function ProjectsItem({
       <Link className={styles.project__link} href={slug}>
         <Image
           src={image}
-          alt={"Test"}
+          alt=""
           sizes={itemWidth}
           className={styles.project__image}
+          placeholder="blur"
         />
 
         <div className={styles.project__overlay}>

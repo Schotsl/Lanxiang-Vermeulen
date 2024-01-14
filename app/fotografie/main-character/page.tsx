@@ -9,6 +9,9 @@ import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
 import imageHeader from "@/public/images/fotografie/main-character/header.jpg";
+import imageFirst from "@/public/images/fotografie/main-character/1.png";
+import imageSecond from "@/public/images/fotografie/main-character/2.png";
+import imageThird from "@/public/images/fotografie/main-character/3.png";
 
 export const metadata = {
   title: "Lxframes - Main character",
@@ -68,25 +71,16 @@ export default function Detail() {
           divider={true}
           images={[
             {
-              alt: "",
-              src: "/images/fotografie/main-character/1.png",
               size: "one-one",
-              width: 3024,
-              height: 4032,
+              image: imageFirst,
             },
             {
-              alt: "",
-              src: "/images/fotografie/main-character/2.png",
               size: "one-one",
-              width: 3024,
-              height: 4032,
+              image: imageSecond,
             },
             {
-              alt: "",
-              src: "/images/fotografie/main-character/3.png",
               size: "one-one",
-              width: 3024,
-              height: 4032,
+              image: imageThird,
             },
           ]}
         />

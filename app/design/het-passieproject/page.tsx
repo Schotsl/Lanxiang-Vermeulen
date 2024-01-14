@@ -2,6 +2,7 @@ import styles from "../page.module.scss";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Button from "@/components/Button";
 import Socials from "@/components/Socials";
 
 import ProjectRow from "@/components/Project/Row";
@@ -10,6 +11,12 @@ import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
 import imageHeader from "@/public/images/design/het-passieproject/header.png";
+import imagePoster from "@/public/images/design/het-passieproject/Poster.png";
+import imageFirst from "@/public/images/design/het-passieproject/1.png";
+import imageSecond from "@/public/images/design/het-passieproject/2.png";
+import imageThird from "@/public/images/design/het-passieproject/3.png";
+import imageFourth from "@/public/images/design/het-passieproject/4.png";
+import imageFifth from "@/public/images/design/het-passieproject/5.png";
 
 export const metadata = {
   title: "Lxframes - Het passieproject",
@@ -46,6 +53,7 @@ export default function Detail() {
 
         <ProjectRow
           title="Expositie mensen verhalen"
+          image={imagePoster}
           content={
             <>
               <p>
@@ -57,19 +65,22 @@ export default function Detail() {
                 leeftijdscategorieën bevinden, variërend van 10 jaar tot 91
                 jaar.
               </p>
-
               <p>
                 Ben je benieuwd naar ons denkproces? Hieronder vind je onze
                 volledige onderzoeksresultaten en waarnemingen.
               </p>
+              <Button
+                href="#de-expositie"
+                color="white"
+                title="Mensen verhalen"
+                style={{
+                  alignSelf: "flex-start",
+                  marginTop: "1rem",
+                }}
+              />
+              ,
             </>
           }
-          image={{
-            src: "/images/design/het-passieproject/Poster.png",
-            alt: "Poster",
-            width: 1258,
-            height: 1790,
-          }}
         />
 
         <ProjectGeneric
@@ -87,44 +98,30 @@ export default function Detail() {
           divider={true}
           images={[
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/het-passieproject/1.png",
               size: "one-two",
-              width: 1366,
-              height: 2048,
+              image: imageFirst,
             },
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/het-passieproject/2.png",
               size: "one-two",
-              width: 1537,
-              height: 2305,
+              image: imageSecond,
             },
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/het-passieproject/3.png",
               size: "one-one",
-              width: 2305,
-              height: 1537,
+              image: imageThird,
             },
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/het-passieproject/4.png",
               size: "one-two",
-              width: 3456,
-              height: 5184,
+              image: imageFourth,
             },
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/het-passieproject/5.png",
               size: "one-two",
-              width: 5184,
-              height: 3456,
+              image: imageFifth,
             },
           ]}
         />
 
         <ProjectGeneric
+          id="de-expositie"
           color="#FFF9F9"
           border="#774F40"
           title="De expositie"

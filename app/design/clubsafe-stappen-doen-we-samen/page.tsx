@@ -11,6 +11,8 @@ import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
 import imageHeader from "@/public/images/design/clubsafe-stappen-doen-we-samen/header.png";
+import imageFirst from "@/public/images/design/clubsafe-stappen-doen-we-samen/Landing.png";
+import imageSecond from "@/public/images/design/clubsafe-stappen-doen-we-samen/XD.png";
 
 export const metadata = {
   title: "Lxframes - Clubsafe: Stappen doen we samen!",
@@ -46,6 +48,7 @@ export default function Detail() {
         <ProjectRow
           sizing="width"
           title="Ons bedrijf: Clubsafe"
+          image={imageFirst}
           content={
             <>
               <p>
@@ -61,12 +64,6 @@ export default function Detail() {
               </p>
             </>
           }
-          image={{
-            src: "/images/design/clubsafe-stappen-doen-we-samen/Landing.png",
-            alt: "Huisstijlsysteem",
-            width: 1982,
-            height: 1114,
-          }}
         />
 
         <ProjectGeneric
@@ -77,11 +74,8 @@ export default function Detail() {
           content="De vormgeving van ClubSafe straalt vrolijkheid uit en creëert een sfeer alsof je je in de club bevindt. Het ontwerp is uitnodigend en de tone of voice is vriendelijk. Ons doel is om mensen voor te bereiden op mogelijke situaties tijdens het uitgaan, zonder ze af te schrikken. We willen benadrukken dat uitgaan leuk is! ClubSafe zet zich in om jonge feestgangers op een veilige manier een geweldige ervaring te bieden."
           images={[
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/clubsafe-stappen-doen-we-samen/XD.png",
               size: "one-one",
-              width: 2880,
-              height: 1800,
+              image: imageSecond,
             },
           ]}
           buttons={[

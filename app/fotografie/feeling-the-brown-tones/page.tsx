@@ -9,6 +9,10 @@ import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
 import imageHeader from "@/public/images/fotografie/feeling-the-brown-tones/header.jpg";
+import imageFirst from "@/public/images/fotografie/feeling-the-brown-tones/1.jpg";
+import imageSecond from "@/public/images/fotografie/feeling-the-brown-tones/2.jpg";
+import imageThird from "@/public/images/fotografie/feeling-the-brown-tones/3.png";
+import imageFourth from "@/public/images/fotografie/feeling-the-brown-tones/4.png";
 
 export const metadata = {
   title: "Lxframes - Feeling the brown tones",
@@ -66,18 +70,12 @@ export default function Detail() {
           divider={true}
           images={[
             {
-              alt: "",
-              src: "/images/fotografie/feeling-the-brown-tones/1.jpg",
               size: "one-one",
-              width: 3024,
-              height: 4032,
+              image: imageFirst,
             },
             {
-              alt: "",
-              src: "/images/fotografie/feeling-the-brown-tones/2.jpg",
               size: "one-one",
-              width: 3024,
-              height: 4032,
+              image: imageSecond,
             },
           ]}
         />
@@ -98,18 +96,12 @@ export default function Detail() {
           divider={true}
           images={[
             {
-              alt: "",
-              src: "/images/fotografie/feeling-the-brown-tones/3.png",
               size: "one-one",
-              width: 3024,
-              height: 4032,
+              image: imageThird,
             },
             {
-              alt: "",
-              src: "/images/fotografie/feeling-the-brown-tones/4.png",
               size: "one-one",
-              width: 3024,
-              height: 4032,
+              image: imageFourth,
             },
           ]}
         />

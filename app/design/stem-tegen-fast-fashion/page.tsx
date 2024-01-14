@@ -10,6 +10,12 @@ import ProjectGeneric from "@/components/Project/Generic";
 import ProjectAssignment from "@/components/Project/Assignment";
 
 import imageHeader from "@/public/images/design/stem-tegen-fast-fashion/header.png";
+import imageLogo from "@/public/images/design/stem-tegen-fast-fashion/Logo.png";
+import imageIcons from "@/public/images/design/stem-tegen-fast-fashion/Icons.png";
+import imageFirst from "@/public/images/design/stem-tegen-fast-fashion/1.png";
+import imageSecond from "@/public/images/design/stem-tegen-fast-fashion/2.png";
+import imageThird from "@/public/images/design/stem-tegen-fast-fashion/3.png";
+import imageFourth from "@/public/images/design/stem-tegen-fast-fashion/4.png";
 
 export const metadata = {
   title: "Lxframes - Stem tegen Fast Fashion",
@@ -47,6 +53,7 @@ export default function Detail() {
 
         <ProjectRow
           sizing="width"
+          image={imageLogo}
           title="Welkom in de klerezooi"
           content={
             <>
@@ -66,12 +73,6 @@ export default function Detail() {
               </p>
             </>
           }
-          image={{
-            src: "/images/design/stem-tegen-fast-fashion/Logo.png",
-            alt: "Huisstijlsysteem",
-            width: 1126,
-            height: 1000,
-          }}
         />
 
         <ProjectGeneric
@@ -98,11 +99,8 @@ export default function Detail() {
           }
           images={[
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/stem-tegen-fast-fashion/Icons.png",
               size: "one-one",
-              width: 4000,
-              height: 996,
+              image: imageIcons,
             },
           ]}
         />
@@ -115,32 +113,20 @@ export default function Detail() {
           divider={true}
           images={[
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/stem-tegen-fast-fashion/1.png",
               size: "one-two",
-              width: 1258,
-              height: 1794,
+              image: imageFirst,
             },
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/stem-tegen-fast-fashion/2.png",
               size: "one-two",
-              width: 1258,
-              height: 1794,
+              image: imageSecond,
             },
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/stem-tegen-fast-fashion/3.png",
               size: "one-two",
-              width: 1258,
-              height: 1794,
+              image: imageThird,
             },
             {
-              alt: "Conceptontwikkeling",
-              src: "/images/design/stem-tegen-fast-fashion/4.png",
               size: "one-two",
-              width: 1258,
-              height: 1794,
+              image: imageFourth,
             },
           ]}
         />

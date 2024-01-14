@@ -1,12 +1,11 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import styles from "./ProjectGeneric.module.scss";
 
-import { ImageType } from "@/types";
 import { ReactNode } from "react";
 
 type ProjectGenericProps = {
   title: string;
-  image: ImageType;
+  image: StaticImageData;
   sizing?: string;
   content: ReactNode;
 };
@@ -22,11 +21,10 @@ export default function ProjectGeneric({
   return (
     <section className={genericStyle}>
       <Image
+        alt=""
         src={image.src}
-        alt={image.alt}
-        width={image.width}
-        height={image.height}
         className={styles.generic__image}
+        placeholder="blur"
       />
 
       <div className={styles.generic__column}>
