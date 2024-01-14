@@ -23,11 +23,11 @@ export default function AboutHeader() {
           mensen te inspireren met mijn visie en vaardigheden.
         </p>
 
-        <Button title="Contact leggen" href="mailto:info@lxframes.nl" />
+        <Button title="Contact leggen" href="/contact" />
       </div>
 
       <Image
-        src="/images/over-mij/header.png"
+        src={imageLanxiang}
         alt="Lanxiang Vermeulen"
         className={styles.header__image}
         placeholder="blur"

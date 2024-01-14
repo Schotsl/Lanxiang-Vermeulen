@@ -62,6 +62,17 @@ export default function Detail() {
                 Wil je meer weten over Clubsafe en het verhaal achter ons
                 (fictieve) bedrijf? Klik dan op de knop hieronder!
               </p>
+              <Button
+                key="2"
+                color="white"
+                href="/Club Safe Detail.pdf"
+                title="Over Clubsafe"
+                style={{
+                  alignSelf: "flex-start",
+                  marginTop: "1rem",
+                }}
+              />
+              ,
             </>
           }
         />
@@ -83,13 +94,7 @@ export default function Detail() {
               key="1"
               color="white"
               href="/Content ClubSafe.xd"
-              title="XD-bestand"
-            />,
-            <Button
-              key="2"
-              color="white"
-              href="/Club Safe Detail.pdf"
-              title="Clufsafe uitgelegd"
+              title="Clubsafe ontwerp"
             />,
           ]}
         />

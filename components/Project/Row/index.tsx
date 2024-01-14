@@ -22,7 +22,7 @@ export default function ProjectGeneric({
     <section className={genericStyle}>
       <Image
         alt=""
-        src={image.src}
+        src={image}
         className={styles.generic__image}
         placeholder="blur"
       />

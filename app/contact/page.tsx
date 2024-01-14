@@ -38,7 +38,12 @@ export default function Detail() {
 
               <p style={{ fontSize: "1.25rem" }}>
                 <b style={{ fontWeight: "600" }}>Mail mij: </b>
-                <a href="mailto:info@lxframes.com">info@lxframes.com</a>
+                <a
+                  style={{ textDecoration: "underline" }}
+                  href="mailto:info@lxframes.com"
+                >
+                  info@lxframes.com
+                </a>
               </p>
 
               <p style={{ fontSize: "1.25rem" }}>
