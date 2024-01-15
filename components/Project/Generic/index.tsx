@@ -63,9 +63,29 @@ export default function ProjectGeneric({
               const imageWidth = `generic__image--${image.size}`;
               const imageClasses = `${styles.generic__image} ${styles[imageWidth]}`;
 
+              let imageSize = "";
+
+              // I'm assuming the full size image takes 90vw
+              switch (image.size) {
+                case "one-third":
+                  imageSize = "(max-width: 768px) 100vw, 30vw";
+                  break;
+                case "two-third":
+                  imageSize = "(max-width: 768px) 100vw, 45vw";
+                  break;
+                case "one-one":
+                  imageSize = "90vw";
+                  break;
+              }
+
               return (
                 <li className={imageClasses} key={index}>
-                  <Image alt="" src={image.image} placeholder="blur" />
+                  <Image
+                    alt=""
+                    src={image.image}
+                    sizes={imageSize}
+                    placeholder="blur"
+                  />
                 </li>
               );
             })}
