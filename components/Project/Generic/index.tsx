@@ -17,7 +17,7 @@ type ProjectGenericProps = {
   border: string;
   sizing?: "height" | "width";
   images?: ProjectGenericImage[];
-  content: ReactNode;
+  content?: ReactNode;
   buttons?: ReactNode[];
   divider?: boolean;
   subtitle?: string;
@@ -48,7 +48,7 @@ export default function ProjectGeneric({
 
       <h2 className={styles.generic__title}>{title}</h2>
 
-      <p className={styles.generic__content}>{content}</p>
+      {content && <p className={styles.generic__content}>{content}</p>}
 
       {divider && <div className={styles.generic__divider}></div>}
 

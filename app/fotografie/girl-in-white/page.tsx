@@ -60,15 +60,6 @@ export default function Detail() {
           color="#FFF6E8"
           border="#9E6C47"
           title="Girl in white"
-          content={
-            <>
-              Hieronder vind je een deel van mijn grondige onderzoek voor het
-              Amsterdam Designmuseum project. Ik heb me toegewijd aan het
-              verkennen van de doelgroep, concurrentie en het product. Daarnaast
-              heb ik uitgebreid onderzoek gedaan naar bijpassende ontwerpers en
-              disciplines.
-            </>
-          }
           divider={true}
           images={[
             {
