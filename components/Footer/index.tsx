@@ -8,7 +8,7 @@ export default function Footer() {
   const currentYear = currentDate.getFullYear();
 
   const aboutContent = {
-    text: "Ontdek de kracht van vormgeving en fotografie met LxFrames. Neem vandaag nog contact met ons op om uw project te bespreken en samen iets unieks te creëren.",
+    text: "Ontdek de kracht van vormgeving en fotografie met LXFrames. Neem vandaag nog contact met mij op om jouw project te bespreken en samen iets unieks te creëren. Ik kijk er naar uit om van je te horen!",
     title: "Lxframes",
     rights: (
       <>
