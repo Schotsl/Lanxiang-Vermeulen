@@ -78,6 +78,7 @@ export default function Detail() {
 
         <ProjectGeneric
           color="#FFF9F9"
+          sizing="height"
           border="#F1D9D8"
           title="De vertaling"
           content="Als je meer wilt weten over mijn denkproces, kan je via de knop hieronder meer informatie vinden over mijn bevindingen."

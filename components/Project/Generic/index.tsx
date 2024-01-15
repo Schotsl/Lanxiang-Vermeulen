@@ -29,7 +29,7 @@ export default function ProjectGeneric({
   title,
   border,
   images,
-  sizing = "height",
+  sizing = "width",
   content,
   buttons = [],
   divider,

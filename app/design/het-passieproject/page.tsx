@@ -85,6 +85,7 @@ export default function Detail() {
 
         <ProjectGeneric
           color="#FFF9F9"
+          sizing="height"
           border="#774F40"
           title="Uitwerking"
           content={
