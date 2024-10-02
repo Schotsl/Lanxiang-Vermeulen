@@ -21,6 +21,7 @@ export default function Home() {
         />
         <h1 className={style.home__title}>Lxframes</h1>
       </header>
+
       <main className={style.home__main}>
         <section className={style.home__main__section}>
           <Link className={style.home__link} href="/fotografie">
